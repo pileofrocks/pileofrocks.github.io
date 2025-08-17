@@ -1,0 +1,177 @@
+/* Body background with a subtle Pokémon pattern (if you have one) */
+body {
+    /* If you have a pixelated Poké Ball pattern */
+    /* background-image: url('path/to/pokeball-pattern.png'); */
+    /* background-repeat: repeat; */
+    background-color: #C0C0C0; /* Keep the classic gray */
+	padding: 2rem;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+/* Main title - Think Game Boy splash screen */
+h1 {
+    color: #CC0000; /* Poké Ball Red */
+    border-bottom-color: #333333; /* Darker line */
+    text-shadow: 2px 2px #000; /* Simple shadow for a "sticker" effect */
+    background-color: #FFD700; /* Pikachu yellow background for the title block */
+    padding: 10px 15px;
+    display: inline-block; /* Make background only behind text */
+    border: 2px outset #FFD700; /* Yellow outset border for title box */
+    margin-bottom: 20px;
+	display: block; /* Ensure it's a block-level element to apply margin: auto */
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content; /* Make the block only as wide as its content */
+}
+
+h2 {
+    color: #CC0000; /* Retain dark blue for subheadings */
+    border-bottom-color: #CC0000; /* Squirtle Blue underline */
+}
+
+.upload {
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.section { 
+	margin-bottom: 2rem; 
+}
+
+.results { 
+	background-color: #eaeaea; /* Lighter background for content blocks */
+    border: 2px outset #C0C0C0; /* Classic 3D "outset" border for containers */
+	padding: 1rem; 
+	border-radius: 8px; 
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+	
+
+/* Buttons can subtly hint at Poké Balls */
+button, input[type="submit"], input[type="button"] {
+    background: linear-gradient(to bottom, #CC0000 50%, #F0F0F0 50%); /* Red top, white bottom */
+    border-top-color: #FF4500; /* Lighter red for highlight */
+    border-left-color: #FF4500;
+    border-bottom-color: #808080;
+    border-right-color: #808080;
+    color: #000; /* Black text on buttons */
+    font-weight: bold;
+    text-transform: uppercase;
+    /* Add a small circle in the middle if you're ambitious with pseudo-elements */
+    position: relative;
+    overflow: hidden; /* Hide anything outside */
+}
+
+/* This is a bit advanced for 90s, but could be a subtle nod */
+button::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px; /* Size of the button's middle circle */
+    height: 10px;
+    background-color: #000; /* Black inner circle */
+    border-radius: 50%;
+    border: 2px solid #F0F0F0; /* White border for the circle */
+    box-shadow: 0 0 0 1px #808080; /* A very slight shadow for depth */
+}
+
+table {
+	width: 100%; 
+	border-collapse: collapse; 
+	margin-top: 1rem;
+}
+
+.sortable {
+    cursor: pointer;
+}
+
+/* Table headers can use a Pokémon color */
+th {
+    background-color: #c5c5c5; /* Squirtle Blue for table headers */
+    color: #CC0000; /* White text on blue header */
+	border: 1px solid #ddd; 
+	padding: 0.5rem; 
+	text-align: left;
+}
+
+td { 
+	border: 1px solid #ddd; 
+	padding: 0.5rem; 
+	text-align: left; 
+	}
+
+/* Horizontal Rule (HR) as a Poké Ball divider */
+hr {
+    border: none;
+    border-top: 5px solid #333333; /* Black line */
+    width: 80%; /* Don't go full width */
+    margin: 20px auto; /* Center it */
+    position: relative;
+}
+
+hr::before {
+    content: '';
+    position: absolute;
+    top: -12px; /* Adjust to center vertically on the line */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 25px; /* Size of the Poké Ball button */
+    height: 25px;
+    background-color: #F0F0F0; /* White button */
+    border-radius: 50%;
+    border: 3px solid #333333; /* Black border */
+}
+
+/* Style the checkbox container (the label) */
+.checkbox-label {
+    display: block;
+    margin-bottom: 8px;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    position: relative;
+    padding-left: 25px; /* Make space for our custom checkbox */
+}
+
+/* Hide the default checkbox input */
+.checkbox-label input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom, styled checkbox square */
+.checkbox-label .label-text::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 15px; /* Size of the square */
+    height: 15px;
+    background-color: #C0C0C0;
+    border: 2px outset #F0F0F0; /* 3D border for the 'unselected' state */
+    border-radius: 2px; /* Slightly rounded corners */
+}
+
+/* Style the checkmark when the checkbox is selected */
+.checkbox-label input[type="checkbox"]:checked + .label-text::after {
+    content: '✓'; /* A simple checkmark character */
+    position: absolute;
+    top: 50%;
+    left: 5px; /* Position the checkmark inside the square */
+    transform: translateY(-50%);
+    font-size: 14px;
+    line-height: 1; /* Adjust for vertical alignment */
+    color: #000080; /* Dark blue checkmark */
+    font-weight: bold;
+}
+
+/* The 'active' state for the label to simulate a button press */
+.checkbox-label:active .label-text::before {
+    border: 2px inset #F0F0F0;
+    background-color: #B0B0B0;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Go Stats Analyzer</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="90s-pokemon.css">
+
+</head>
+<body>
+    <h1><img src='img/rotompng.png' height="100" > Rotom Report</h1>
+    <div class="upload">
+    <input type="file" id="fileInput" accept=".csv,.tsv" />
+    </div>
+
+    <div class="section">
+        <fieldset class="section results">
+            <h2> Options </h2>
+            <label for="analysis-level-forty" class="checkbox-label">
+                <input type="checkbox" id="analysis-level-forty" name="analysis-type" value="level_forty">
+                <span class="label-text">Level 40</span>
+            </label>
+
+            <label for="analysis-ideal-moveset" class="checkbox-label">
+                <input type="checkbox" id="analysis-ideal-moveset" name="analysis-type" value="ideal_moveset">
+                <span class="label-text">Ideal Moveset</span>
+            </label>
+
+            <label for="analysis-evolved" class="checkbox-label">
+                <input type="checkbox" id="analysis-evolved" name="analysis-type" value="fully_evolved">
+                <span class="label-text">Fully Evolved</span>
+            </label>
+        </fieldset>
+    </div>
+
+    <div class="section results" id="summary">
+        <h2>Summary</h2>
+        <p id="fileStats">No file uploaded.</p>
+    </div>
+
+    <div class="section results" id="chartSection" style="display:none;">
+        <h2>CP Distribution</h2>
+        <canvas id="cpChart"></canvas>
+    </div>
+
+    <div class="section results" id="tableSection" style="display:none;">
+        <h2>Pokémon Table</h2>
+        <div id="pokemonTable"></div>
+    </div>
+
+    <div class="section results" id="errorSection" style="display:none;">
+        <h2>Data Issues Found</h2>
+        <div id="errorTablesContainer"></div>
+    </div>
+
+    <script src="js/pokeMath.js"></script>
+    <script src="js/csvProcessor.js"></script>
+    <script src="js/tableRenderer.js"></script>
+    <script src="js/chartRenderer.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,1927 @@
+{
+  "Acid Spray": {
+    "Type": "Poison",
+    "PWR": 20.0,
+    "ENG": 50.0,
+    "Duration": 3.0,
+    "DPS": 6.67
+  },
+  "Acrobatics": {
+    "Type": "Flying",
+    "PWR": 100.0,
+    "ENG": 100.0,
+    "Duration": 2.0,
+    "DPS": 50.0
+  },
+  "Aerial Ace": {
+    "Type": "Flying",
+    "PWR": 55.0,
+    "ENG": 33.0,
+    "Duration": 2.5,
+    "DPS": 22.0
+  },
+  "Aeroblast": {
+    "Type": "Flying",
+    "PWR": 180.0,
+    "ENG": 100.0,
+    "Duration": 3.5,
+    "DPS": 51.43
+  },
+  "Aeroblast+": {
+    "Type": "Flying",
+    "PWR": 200.0,
+    "ENG": 100.0,
+    "Duration": 3.5,
+    "DPS": 57.14
+  },
+  "Aeroblast++": {
+    "Type": "Flying",
+    "PWR": 225.0,
+    "ENG": 100.0,
+    "Duration": 3.5,
+    "DPS": 64.29
+  },
+  "Air Cutter": {
+    "Type": "Flying",
+    "PWR": 55.0,
+    "ENG": 50.0,
+    "Duration": 2.5,
+    "DPS": 22.0
+  },
+  "Ancient Power": {
+    "Type": "Rock",
+    "PWR": 70.0,
+    "ENG": 33.0,
+    "Duration": 3.5,
+    "DPS": 20.0
+  },
+  "Aqua Jet": {
+    "Type": "Water",
+    "PWR": 45.0,
+    "ENG": 33.0,
+    "Duration": 2.5,
+    "DPS": 18.0
+  },
+  "Aqua Step": {
+    "Type": "Water",
+    "PWR": 55.0,
+    "ENG": 33.0,
+    "Duration": 3.5,
+    "DPS": 15.71
+  },
+  "Aqua Tail": {
+    "Type": "Water",
+    "PWR": 50.0,
+    "ENG": 33.0,
+    "Duration": 2.0,
+    "DPS": 25.0
+  },
+  "Aura Sphere": {
+    "Type": "Fighting",
+    "PWR": 100.0,
+    "ENG": 50.0,
+    "Duration": 2.0,
+    "DPS": 50.0
+  },
+  "Aura Wheel": {
+    "Type": "Dark",
+    "PWR": 100.0,
+    "ENG": 45.0,
+    "Duration": 2.7,
+    "DPS": 37.04
+  },
+  "Aurora Beam": {
+    "Type": "Ice",
+    "PWR": 80.0,
+    "ENG": 50.0,
+    "Duration": 3.5,
+    "DPS": 22.86
+  },
+  "Avalanche": {
+    "Type": "Ice",
+    "PWR": 85.0,
+    "ENG": 50.0,
+    "Duration": 2.5,
+    "DPS": 34.0
+  },
+  "Behemoth Bash": {
+    "Type": "Steel",
+    "PWR": 125.0,
+    "ENG": 50.0,
+    "Duration": 1.5,
+    "DPS": 83.33
+  },
+  "Behemoth Blade": {
+    "Type": "Steel",
+    "PWR": 200.0,
+    "ENG": 100.0,
+    "Duration": 3.5,
+    "DPS": 57.14
+  },
+  "Blast Burn": {
+    "Type": "Fire",
+    "PWR": 120.0,
+    "ENG": 50.0,
+    "Duration": 3.5,
+    "DPS": 34.29
+  },
+  "Blaze Kick": {
+    "Type": "Fire",
+    "PWR": 40.0,
+    "ENG": 33.0,
+    "Duration": 1.0,
+    "DPS": 40.0
+  },
+  "Bleakwind Storm": {
+    "Type": "Flying",
+    "PWR": 150.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 60.0
+  },
+  "Blizzard": {
+    "Type": "Ice",
+    "PWR": 130.0,
+    "ENG": 100.0,
+    "Duration": 3.0,
+    "DPS": 43.33
+  },
+  "Body Slam": {
+    "Type": "Normal",
+    "PWR": 50.0,
+    "ENG": 33.0,
+    "Duration": 2.0,
+    "DPS": 25.0
+  },
+  "Bone Club": {
+    "Type": "Ground",
+    "PWR": 40.0,
+    "ENG": 33.0,
+    "Duration": 1.5,
+    "DPS": 26.67
+  },
+  "Boomburst": {
+    "Type": "Normal",
+    "PWR": 150.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 60.0
+  },
+  "Brave Bird": {
+    "Type": "Flying",
+    "PWR": 130.0,
+    "ENG": 100.0,
+    "Duration": 2.0,
+    "DPS": 65.0
+  },
+  "Breaking Swipe": {
+    "Type": "Dragon",
+    "PWR": 45.0,
+    "ENG": 33.0,
+    "Duration": 1.0,
+    "DPS": 45.0
+  },
+  "Brick Break": {
+    "Type": "Fighting",
+    "PWR": 40.0,
+    "ENG": 33.0,
+    "Duration": 1.5,
+    "DPS": 26.67
+  },
+  "Brine": {
+    "Type": "Water",
+    "PWR": 65.0,
+    "ENG": 50.0,
+    "Duration": 2.5,
+    "DPS": 26.0
+  },
+  "Brutal Swing": {
+    "Type": "Dark",
+    "PWR": 65.0,
+    "ENG": 33.0,
+    "Duration": 2.0,
+    "DPS": 32.5
+  },
+  "Bubble Beam": {
+    "Type": "Water",
+    "PWR": 45.0,
+    "ENG": 33.0,
+    "Duration": 2.0,
+    "DPS": 22.5
+  },
+  "Bug Buzz": {
+    "Type": "Bug",
+    "PWR": 95.0,
+    "ENG": 50.0,
+    "Duration": 3.5,
+    "DPS": 27.14
+  },
+  "Bulldoze": {
+    "Type": "Ground",
+    "PWR": 80.0,
+    "ENG": 50.0,
+    "Duration": 3.5,
+    "DPS": 22.86
+  },
+  "Clanging Scales": {
+    "Type": "Dragon",
+    "PWR": 120.0,
+    "ENG": 100.0,
+    "Duration": 3.3,
+    "DPS": 36.36
+  },
+  "Close Combat": {
+    "Type": "Fighting",
+    "PWR": 105.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 42.0
+  },
+  "Crabhammer": {
+    "Type": "Water",
+    "PWR": 85.0,
+    "ENG": 50.0,
+    "Duration": 2.0,
+    "DPS": 42.5
+  },
+  "Cross Chop": {
+    "Type": "Fighting",
+    "PWR": 50.0,
+    "ENG": 50.0,
+    "Duration": 1.5,
+    "DPS": 33.33
+  },
+  "Cross Poison": {
+    "Type": "Poison",
+    "PWR": 40.0,
+    "ENG": 33.0,
+    "Duration": 1.5,
+    "DPS": 26.67
+  },
+  "Crunch": {
+    "Type": "Dark",
+    "PWR": 65.0,
+    "ENG": 33.0,
+    "Duration": 3.0,
+    "DPS": 21.67
+  },
+  "Crush Claw": {
+    "Type": "Normal",
+    "PWR": 0.0,
+    "ENG": 0.0,
+    "Duration": 2.0,
+    "DPS": 0.0
+  },
+  "Crush Grip": {
+    "Type": "Normal",
+    "PWR": 210.0,
+    "ENG": 100.0,
+    "Duration": 1.8,
+    "DPS": 116.67
+  },
+  "Dark Pulse": {
+    "Type": "Dark",
+    "PWR": 80.0,
+    "ENG": 50.0,
+    "Duration": 3.0,
+    "DPS": 26.67
+  },
+  "Darkest Lariat": {
+    "Type": "Dark",
+    "PWR": 80.0,
+    "ENG": 50.0,
+    "Duration": 2.0,
+    "DPS": 40.0
+  },
+  "Dazzling Gleam": {
+    "Type": "Fairy",
+    "PWR": 100.0,
+    "ENG": 50.0,
+    "Duration": 3.5,
+    "DPS": 28.57
+  },
+  "Dig": {
+    "Type": "Ground",
+    "PWR": 100.0,
+    "ENG": 50.0,
+    "Duration": 4.5,
+    "DPS": 22.22
+  },
+  "Disarming Voice": {
+    "Type": "Fairy",
+    "PWR": 70.0,
+    "ENG": 33.0,
+    "Duration": 4.0,
+    "DPS": 17.5
+  },
+  "Discharge": {
+    "Type": "Electric",
+    "PWR": 65.0,
+    "ENG": 33.0,
+    "Duration": 2.5,
+    "DPS": 26.0
+  },
+  "Doom Desire": {
+    "Type": "Steel",
+    "PWR": 65.0,
+    "ENG": 33.0,
+    "Duration": 1.5,
+    "DPS": 43.33
+  },
+  "Double Iron Bash": {
+    "Type": "Steel",
+    "PWR": 70.0,
+    "ENG": 33.0,
+    "Duration": 2.0,
+    "DPS": 35.0
+  },
+  "Draco Meteor": {
+    "Type": "Dragon",
+    "PWR": 150.0,
+    "ENG": 100.0,
+    "Duration": 3.5,
+    "DPS": 42.86
+  },
+  "Dragon Ascent": {
+    "Type": "Flying",
+    "PWR": 140.0,
+    "ENG": 50.0,
+    "Duration": 3.5,
+    "DPS": 40.0
+  },
+  "Dragon Claw": {
+    "Type": "Dragon",
+    "PWR": 45.0,
+    "ENG": 33.0,
+    "Duration": 1.5,
+    "DPS": 30.0
+  },
+  "Dragon Energy": {
+    "Type": "Dragon",
+    "PWR": 155.0,
+    "ENG": 50.0,
+    "Duration": 3.3,
+    "DPS": 46.97
+  },
+  "Dragon Pulse": {
+    "Type": "Dragon",
+    "PWR": 90.0,
+    "ENG": 50.0,
+    "Duration": 3.5,
+    "DPS": 25.71
+  },
+  "Drain Punch": {
+    "Type": "Fighting",
+    "PWR": 50.0,
+    "ENG": 33.0,
+    "Duration": 2.5,
+    "DPS": 20.0
+  },
+  "Draining Kiss": {
+    "Type": "Fairy",
+    "PWR": 60.0,
+    "ENG": 50.0,
+    "Duration": 2.5,
+    "DPS": 24.0
+  },
+  "Drill Peck": {
+    "Type": "Flying",
+    "PWR": 70.0,
+    "ENG": 33.0,
+    "Duration": 2.5,
+    "DPS": 28.0
+  },
+  "Drill Run": {
+    "Type": "Ground",
+    "PWR": 85.0,
+    "ENG": 50.0,
+    "Duration": 3.0,
+    "DPS": 28.33
+  },
+  "Dynamax Cannon": {
+    "Type": "Dragon",
+    "PWR": 215.0,
+    "ENG": 100.0,
+    "Duration": 1.5,
+    "DPS": 143.33
+  },
+  "Dynamic Punch": {
+    "Type": "Fighting",
+    "PWR": 85.0,
+    "ENG": 50.0,
+    "Duration": 2.5,
+    "DPS": 34.0
+  },
+  "Earth Power": {
+    "Type": "Ground",
+    "PWR": 100.0,
+    "ENG": 50.0,
+    "Duration": 3.5,
+    "DPS": 28.57
+  },
+  "Earthquake": {
+    "Type": "Ground",
+    "PWR": 140.0,
+    "ENG": 100.0,
+    "Duration": 3.5,
+    "DPS": 40.0
+  },
+  "Energy Ball": {
+    "Type": "Grass",
+    "PWR": 90.0,
+    "ENG": 50.0,
+    "Duration": 4.0,
+    "DPS": 22.5
+  },
+  "Feather Dance": {
+    "Type": "Flying",
+    "PWR": 35.0,
+    "ENG": 50.0,
+    "Duration": 3.0,
+    "DPS": 11.67
+  },
+  "Fell Stinger": {
+    "Type": "Bug",
+    "PWR": 45.0,
+    "ENG": 33.0,
+    "Duration": 2.0,
+    "DPS": 22.5
+  },
+  "Fire Blast": {
+    "Type": "Fire",
+    "PWR": 140.0,
+    "ENG": 100.0,
+    "Duration": 4.0,
+    "DPS": 35.0
+  },
+  "Fire Punch": {
+    "Type": "Fire",
+    "PWR": 50.0,
+    "ENG": 33.0,
+    "Duration": 2.0,
+    "DPS": 25.0
+  },
+  "Fissure": {
+    "Type": "Ground",
+    "PWR": 9001.0,
+    "ENG": 25.0,
+    "Duration": 3.0,
+    "DPS": 3000.33
+  },
+  "Flame Burst": {
+    "Type": "Fire",
+    "PWR": 70.0,
+    "ENG": 50.0,
+    "Duration": 2.5,
+    "DPS": 28.0
+  },
+  "Flame Charge": {
+    "Type": "Fire",
+    "PWR": 70.0,
+    "ENG": 33.0,
+    "Duration": 4.0,
+    "DPS": 17.5
+  },
+  "Flame Wheel": {
+    "Type": "Fire",
+    "PWR": 55.0,
+    "ENG": 50.0,
+    "Duration": 2.5,
+    "DPS": 22.0
+  },
+  "Flamethrower": {
+    "Type": "Fire",
+    "PWR": 65.0,
+    "ENG": 50.0,
+    "Duration": 2.0,
+    "DPS": 32.5
+  },
+  "Flash Cannon": {
+    "Type": "Steel",
+    "PWR": 100.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 40.0
+  },
+  "Flower Trick": {
+    "Type": "Grass",
+    "PWR": 75.0,
+    "ENG": 33.0,
+    "Duration": 2.7,
+    "DPS": 27.78
+  },
+  "Fly": {
+    "Type": "Flying",
+    "PWR": 90.0,
+    "ENG": 50.0,
+    "Duration": 2.0,
+    "DPS": 45.0
+  },
+  "Flying Press": {
+    "Type": "Fighting",
+    "PWR": 115.0,
+    "ENG": 50.0,
+    "Duration": 2.5,
+    "DPS": 46.0
+  },
+  "Focus Blast": {
+    "Type": "Fighting",
+    "PWR": 140.0,
+    "ENG": 100.0,
+    "Duration": 3.5,
+    "DPS": 40.0
+  },
+  "Foul Play": {
+    "Type": "Dark",
+    "PWR": 70.0,
+    "ENG": 50.0,
+    "Duration": 2.0,
+    "DPS": 35.0
+  },
+  "Freeze Shock": {
+    "Type": "Ice",
+    "PWR": 160.0,
+    "ENG": 100.0,
+    "Duration": 1.5,
+    "DPS": 106.67
+  },
+  "Frenzy Plant": {
+    "Type": "Grass",
+    "PWR": 100.0,
+    "ENG": 50.0,
+    "Duration": 2.5,
+    "DPS": 40.0
+  },
+  "Frustration": {
+    "Type": "Normal",
+    "PWR": 10.0,
+    "ENG": 33.0,
+    "Duration": 2.0,
+    "DPS": 5.0
+  },
+  "Fusion Bolt": {
+    "Type": "Electric",
+    "PWR": 140.0,
+    "ENG": 100.0,
+    "Duration": 2.0,
+    "DPS": 70.0
+  },
+  "Fusion Flare": {
+    "Type": "Fire",
+    "PWR": 140.0,
+    "ENG": 100.0,
+    "Duration": 2.0,
+    "DPS": 70.0
+  },
+  "Future Sight": {
+    "Type": "Psychic",
+    "PWR": 115.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 46.0
+  },
+  "G-Max Befuddle": {
+    "Type": "Bug",
+    "PWR": 350.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 140.0
+  },
+  "G-Max Cannonade": {
+    "Type": "Water",
+    "PWR": 350.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 140.0
+  },
+  "G-Max Centiferno": {
+    "Type": "Fire",
+    "PWR": 350.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 140.0
+  },
+  "G-Max Chi Strike": {
+    "Type": "Fighting",
+    "PWR": 350.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 140.0
+  },
+  "G-Max Cuddle": {
+    "Type": "Normal",
+    "PWR": 350.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 140.0
+  },
+  "G-Max Depletion": {
+    "Type": "Dragon",
+    "PWR": 350.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 140.0
+  },
+  "G-Max Drum Solo": {
+    "Type": "Grass",
+    "PWR": 350.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 140.0
+  },
+  "G-Max Finale": {
+    "Type": "Fairy",
+    "PWR": 350.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 140.0
+  },
+  "G-Max Fireball": {
+    "Type": "Fire",
+    "PWR": 350.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 140.0
+  },
+  "G-Max Foam Burst": {
+    "Type": "Water",
+    "PWR": 350.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 140.0
+  },
+  "G-Max Gold Rush": {
+    "Type": "Normal",
+    "PWR": 350.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 140.0
+  },
+  "G-Max Gravitas": {
+    "Type": "Psychic",
+    "PWR": 350.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 140.0
+  },
+  "G-Max Hydrosnipe": {
+    "Type": "Water",
+    "PWR": 350.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 140.0
+  },
+  "G-Max Malodor": {
+    "Type": "Poison",
+    "PWR": 350.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 140.0
+  },
+  "G-Max Meltdown": {
+    "Type": "Steel",
+    "PWR": 350.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 140.0
+  },
+  "G-Max One Blow": {
+    "Type": "Dark",
+    "PWR": 350.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 140.0
+  },
+  "G-Max Rapid Flow": {
+    "Type": "Water",
+    "PWR": 350.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 140.0
+  },
+  "G-Max Replenish": {
+    "Type": "Normal",
+    "PWR": 350.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 140.0
+  },
+  "G-Max Resonance": {
+    "Type": "Ice",
+    "PWR": 350.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 140.0
+  },
+  "G-Max Sandblast": {
+    "Type": "Ground",
+    "PWR": 350.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 140.0
+  },
+  "G-Max Smite": {
+    "Type": "Fairy",
+    "PWR": 350.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 140.0
+  },
+  "G-Max Snooze": {
+    "Type": "Dark",
+    "PWR": 350.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 140.0
+  },
+  "G-Max Steelsurge": {
+    "Type": "Steel",
+    "PWR": 350.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 140.0
+  },
+  "G-Max Stonesurge": {
+    "Type": "Water",
+    "PWR": 350.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 140.0
+  },
+  "G-Max Stun Shock": {
+    "Type": "Electric",
+    "PWR": 350.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 140.0
+  },
+  "G-Max Sweetness": {
+    "Type": "Grass",
+    "PWR": 350.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 140.0
+  },
+  "G-Max Tartness": {
+    "Type": "Grass",
+    "PWR": 350.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 140.0
+  },
+  "G-Max Terror": {
+    "Type": "Ghost",
+    "PWR": 350.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 140.0
+  },
+  "G-Max Vine Lash": {
+    "Type": "Grass",
+    "PWR": 350.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 140.0
+  },
+  "G-Max Volcalith": {
+    "Type": "Rock",
+    "PWR": 350.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 140.0
+  },
+  "G-Max Volt Crash": {
+    "Type": "Electric",
+    "PWR": 350.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 140.0
+  },
+  "G-Max Wildfire": {
+    "Type": "Fire",
+    "PWR": 350.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 140.0
+  },
+  "G-Max Wind Rage": {
+    "Type": "Flying",
+    "PWR": 350.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 140.0
+  },
+  "Giga Drain": {
+    "Type": "Grass",
+    "PWR": 50.0,
+    "ENG": 100.0,
+    "Duration": 4.0,
+    "DPS": 12.5
+  },
+  "Giga Impact": {
+    "Type": "Normal",
+    "PWR": 200.0,
+    "ENG": 100.0,
+    "Duration": 4.5,
+    "DPS": 44.44
+  },
+  "Glaciate": {
+    "Type": "Ice",
+    "PWR": 160.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 64.0
+  },
+  "Grass Knot": {
+    "Type": "Grass",
+    "PWR": 90.0,
+    "ENG": 50.0,
+    "Duration": 2.5,
+    "DPS": 36.0
+  },
+  "Gunk Shot": {
+    "Type": "Poison",
+    "PWR": 130.0,
+    "ENG": 100.0,
+    "Duration": 3.0,
+    "DPS": 43.33
+  },
+  "Gyro Ball": {
+    "Type": "Steel",
+    "PWR": 85.0,
+    "ENG": 50.0,
+    "Duration": 3.5,
+    "DPS": 24.29
+  },
+  "Heart Stamp": {
+    "Type": "Psychic",
+    "PWR": 40.0,
+    "ENG": 33.0,
+    "Duration": 2.0,
+    "DPS": 20.0
+  },
+  "Heat Wave": {
+    "Type": "Fire",
+    "PWR": 95.0,
+    "ENG": 100.0,
+    "Duration": 3.0,
+    "DPS": 31.67
+  },
+  "Heavy Slam": {
+    "Type": "Steel",
+    "PWR": 70.0,
+    "ENG": 50.0,
+    "Duration": 2.0,
+    "DPS": 35.0
+  },
+  "High Horsepower": {
+    "Type": "Ground",
+    "PWR": 105.0,
+    "ENG": 100.0,
+    "Duration": 1.5,
+    "DPS": 70.0
+  },
+  "High Jump Kick": {
+    "Type": "Fighting",
+    "PWR": 90.0,
+    "ENG": 100.0,
+    "Duration": 1.5,
+    "DPS": 60.0
+  },
+  "Horn Attack": {
+    "Type": "Normal",
+    "PWR": 45.0,
+    "ENG": 33.0,
+    "Duration": 2.0,
+    "DPS": 22.5
+  },
+  "Horn Drill": {
+    "Type": "Normal",
+    "PWR": 9000.0,
+    "ENG": 25.0,
+    "Duration": 2.0,
+    "DPS": 4500.0
+  },
+  "Hurricane": {
+    "Type": "Flying",
+    "PWR": 105.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 42.0
+  },
+  "Hydro Cannon": {
+    "Type": "Water",
+    "PWR": 90.0,
+    "ENG": 50.0,
+    "Duration": 2.0,
+    "DPS": 45.0
+  },
+  "Hydro Pump": {
+    "Type": "Water",
+    "PWR": 90.0,
+    "ENG": 100.0,
+    "Duration": 4.5,
+    "DPS": 20.0
+  },
+  "Hyper Beam": {
+    "Type": "Normal",
+    "PWR": 150.0,
+    "ENG": 100.0,
+    "Duration": 4.0,
+    "DPS": 37.5
+  },
+  "Hyper Fang": {
+    "Type": "Normal",
+    "PWR": 80.0,
+    "ENG": 50.0,
+    "Duration": 2.5,
+    "DPS": 32.0
+  },
+  "Ice Beam": {
+    "Type": "Ice",
+    "PWR": 95.0,
+    "ENG": 50.0,
+    "Duration": 3.5,
+    "DPS": 27.14
+  },
+  "Ice Burn": {
+    "Type": "Ice",
+    "PWR": 90.0,
+    "ENG": 50.0,
+    "Duration": 2.0,
+    "DPS": 45.0
+  },
+  "Ice Punch": {
+    "Type": "Ice",
+    "PWR": 50.0,
+    "ENG": 33.0,
+    "Duration": 2.0,
+    "DPS": 25.0
+  },
+  "Icicle Spear": {
+    "Type": "Ice",
+    "PWR": 55.0,
+    "ENG": 33.0,
+    "Duration": 2.0,
+    "DPS": 27.5
+  },
+  "Icy Wind": {
+    "Type": "Ice",
+    "PWR": 65.0,
+    "ENG": 33.0,
+    "Duration": 3.5,
+    "DPS": 18.57
+  },
+  "Iron Head": {
+    "Type": "Steel",
+    "PWR": 60.0,
+    "ENG": 50.0,
+    "Duration": 2.0,
+    "DPS": 30.0
+  },
+  "Last Resort": {
+    "Type": "Normal",
+    "PWR": 90.0,
+    "ENG": 50.0,
+    "Duration": 3.0,
+    "DPS": 30.0
+  },
+  "Leaf Blade": {
+    "Type": "Grass",
+    "PWR": 70.0,
+    "ENG": 33.0,
+    "Duration": 2.5,
+    "DPS": 28.0
+  },
+  "Leaf Storm": {
+    "Type": "Grass",
+    "PWR": 130.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 52.0
+  },
+  "Leaf Tornado": {
+    "Type": "Grass",
+    "PWR": 45.0,
+    "ENG": 33.0,
+    "Duration": 3.0,
+    "DPS": 15.0
+  },
+  "Leech Life": {
+    "Type": "Bug",
+    "PWR": 0.0,
+    "ENG": 0.0,
+    "Duration": 2.5,
+    "DPS": 0.0
+  },
+  "Liquidation": {
+    "Type": "Water",
+    "PWR": 70.0,
+    "ENG": 33.0,
+    "Duration": 3.0,
+    "DPS": 23.33
+  },
+  "Low Sweep": {
+    "Type": "Fighting",
+    "PWR": 40.0,
+    "ENG": 33.0,
+    "Duration": 2.0,
+    "DPS": 20.0
+  },
+  "Lunge": {
+    "Type": "Bug",
+    "PWR": 55.0,
+    "ENG": 33.0,
+    "Duration": 3.0,
+    "DPS": 18.33
+  },
+  "Luster Purge": {
+    "Type": "Psychic",
+    "PWR": 100.0,
+    "ENG": 100.0,
+    "Duration": 1.5,
+    "DPS": 66.67
+  },
+  "Magma Storm": {
+    "Type": "Fire",
+    "PWR": 75.0,
+    "ENG": 33.0,
+    "Duration": 2.5,
+    "DPS": 30.0
+  },
+  "Magnet Bomb": {
+    "Type": "Steel",
+    "PWR": 75.0,
+    "ENG": 33.0,
+    "Duration": 3.0,
+    "DPS": 25.0
+  },
+  "Max Airstream": {
+    "Type": "Flying",
+    "PWR": 250.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 100.0
+  },
+  "Max Darkness": {
+    "Type": "Dark",
+    "PWR": 250.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 100.0
+  },
+  "Max Flare": {
+    "Type": "Fire",
+    "PWR": 250.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 100.0
+  },
+  "Max Flutterby": {
+    "Type": "Bug",
+    "PWR": 250.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 100.0
+  },
+  "Max Geyser": {
+    "Type": "Water",
+    "PWR": 250.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 100.0
+  },
+  "Max Hailstorm": {
+    "Type": "Ice",
+    "PWR": 250.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 100.0
+  },
+  "Max Heal": {
+    "Type": "Normal",
+    "PWR": 250.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 100.0
+  },
+  "Max Knuckle": {
+    "Type": "Fighting",
+    "PWR": 250.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 100.0
+  },
+  "Max Lightning": {
+    "Type": "Electric",
+    "PWR": 250.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 100.0
+  },
+  "Max Mindstorm": {
+    "Type": "Psychic",
+    "PWR": 250.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 100.0
+  },
+  "Max Ooze": {
+    "Type": "Poison",
+    "PWR": 250.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 100.0
+  },
+  "Max Overgrowth": {
+    "Type": "Grass",
+    "PWR": 250.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 100.0
+  },
+  "Max Phantasm": {
+    "Type": "Ghost",
+    "PWR": 250.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 100.0
+  },
+  "Max Quake": {
+    "Type": "Ground",
+    "PWR": 250.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 100.0
+  },
+  "Max Rockfall": {
+    "Type": "Rock",
+    "PWR": 250.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 100.0
+  },
+  "Max Shield": {
+    "Type": "Normal",
+    "PWR": 250.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 100.0
+  },
+  "Max Starfall": {
+    "Type": "Fairy",
+    "PWR": 250.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 100.0
+  },
+  "Max Steelspike": {
+    "Type": "Steel",
+    "PWR": 250.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 100.0
+  },
+  "Max Strike": {
+    "Type": "Normal",
+    "PWR": 250.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 100.0
+  },
+  "Max Wyrmwind": {
+    "Type": "Dragon",
+    "PWR": 250.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 100.0
+  },
+  "Mega Drain": {
+    "Type": "Grass",
+    "PWR": 25.0,
+    "ENG": 50.0,
+    "Duration": 2.5,
+    "DPS": 10.0
+  },
+  "Megahorn": {
+    "Type": "Bug",
+    "PWR": 105.0,
+    "ENG": 100.0,
+    "Duration": 2.0,
+    "DPS": 52.5
+  },
+  "Meteor Beam": {
+    "Type": "Rock",
+    "PWR": 140.0,
+    "ENG": 100.0,
+    "Duration": 2.0,
+    "DPS": 70.0
+  },
+  "Meteor Mash": {
+    "Type": "Steel",
+    "PWR": 100.0,
+    "ENG": 50.0,
+    "Duration": 2.5,
+    "DPS": 40.0
+  },
+  "Mirror Coat": {
+    "Type": "Psychic",
+    "PWR": 60.0,
+    "ENG": 50.0,
+    "Duration": 2.5,
+    "DPS": 24.0
+  },
+  "Mirror Shot": {
+    "Type": "Steel",
+    "PWR": 50.0,
+    "ENG": 33.0,
+    "Duration": 2.5,
+    "DPS": 20.0
+  },
+  "Mist Ball": {
+    "Type": "Psychic",
+    "PWR": 105.0,
+    "ENG": 100.0,
+    "Duration": 2.0,
+    "DPS": 52.5
+  },
+  "Moonblast": {
+    "Type": "Fairy",
+    "PWR": 130.0,
+    "ENG": 100.0,
+    "Duration": 4.0,
+    "DPS": 32.5
+  },
+  "Moongeist Beam": {
+    "Type": "Ghost",
+    "PWR": 230.0,
+    "ENG": 100.0,
+    "Duration": 3.0,
+    "DPS": 76.67
+  },
+  "Mud Bomb": {
+    "Type": "Ground",
+    "PWR": 60.0,
+    "ENG": 33.0,
+    "Duration": 2.5,
+    "DPS": 24.0
+  },
+  "Muddy Water": {
+    "Type": "Water",
+    "PWR": 45.0,
+    "ENG": 33.0,
+    "Duration": 2.0,
+    "DPS": 22.5
+  },
+  "Mystical Fire": {
+    "Type": "Fire",
+    "PWR": 60.0,
+    "ENG": 33.0,
+    "Duration": 2.0,
+    "DPS": 30.0
+  },
+  "NOT_FOUND": {
+    "Type": "Dragon",
+    "PWR": 250.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 100.0
+  },
+  "Nature's Madness": {
+    "Type": "Fairy",
+    "PWR": 90.0,
+    "ENG": 50.0,
+    "Duration": 2.0,
+    "DPS": 45.0
+  },
+  "Night Shade": {
+    "Type": "Ghost",
+    "PWR": 60.0,
+    "ENG": 50.0,
+    "Duration": 2.5,
+    "DPS": 24.0
+  },
+  "Night Slash": {
+    "Type": "Dark",
+    "PWR": 45.0,
+    "ENG": 33.0,
+    "Duration": 2.0,
+    "DPS": 22.5
+  },
+  "Oblivion Wing": {
+    "Type": "Flying",
+    "PWR": 85.0,
+    "ENG": 50.0,
+    "Duration": 2.0,
+    "DPS": 42.5
+  },
+  "Obstruct": {
+    "Type": "Dark",
+    "PWR": 20.0,
+    "ENG": 33.0,
+    "Duration": 1.5,
+    "DPS": 13.33
+  },
+  "Octazooka": {
+    "Type": "Water",
+    "PWR": 55.0,
+    "ENG": 50.0,
+    "Duration": 2.5,
+    "DPS": 22.0
+  },
+  "Ominous Wind": {
+    "Type": "Ghost",
+    "PWR": 55.0,
+    "ENG": 33.0,
+    "Duration": 2.5,
+    "DPS": 22.0
+  },
+  "Origin Pulse": {
+    "Type": "Water",
+    "PWR": 120.0,
+    "ENG": 100.0,
+    "Duration": 1.5,
+    "DPS": 80.0
+  },
+  "Outrage": {
+    "Type": "Dragon",
+    "PWR": 110.0,
+    "ENG": 50.0,
+    "Duration": 4.0,
+    "DPS": 27.5
+  },
+  "Overheat": {
+    "Type": "Fire",
+    "PWR": 160.0,
+    "ENG": 100.0,
+    "Duration": 4.0,
+    "DPS": 40.0
+  },
+  "Parabolic Charge": {
+    "Type": "Electric",
+    "PWR": 70.0,
+    "ENG": 50.0,
+    "Duration": 3.0,
+    "DPS": 23.33
+  },
+  "Payback": {
+    "Type": "Dark",
+    "PWR": 95.0,
+    "ENG": 100.0,
+    "Duration": 2.0,
+    "DPS": 47.5
+  },
+  "Petal Blizzard": {
+    "Type": "Grass",
+    "PWR": 110.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 44.0
+  },
+  "Play Rough": {
+    "Type": "Fairy",
+    "PWR": 90.0,
+    "ENG": 50.0,
+    "Duration": 3.0,
+    "DPS": 30.0
+  },
+  "Poison Fang": {
+    "Type": "Poison",
+    "PWR": 30.0,
+    "ENG": 33.0,
+    "Duration": 1.5,
+    "DPS": 20.0
+  },
+  "Poltergeist": {
+    "Type": "Ghost",
+    "PWR": 140.0,
+    "ENG": 100.0,
+    "Duration": 3.5,
+    "DPS": 40.0
+  },
+  "Power Gem": {
+    "Type": "Rock",
+    "PWR": 80.0,
+    "ENG": 50.0,
+    "Duration": 3.0,
+    "DPS": 26.67
+  },
+  "Power Whip": {
+    "Type": "Grass",
+    "PWR": 90.0,
+    "ENG": 50.0,
+    "Duration": 2.5,
+    "DPS": 36.0
+  },
+  "Power-Up Punch": {
+    "Type": "Fighting",
+    "PWR": 50.0,
+    "ENG": 33.0,
+    "Duration": 2.0,
+    "DPS": 25.0
+  },
+  "Precipice Blades": {
+    "Type": "Ground",
+    "PWR": 120.0,
+    "ENG": 100.0,
+    "Duration": 1.5,
+    "DPS": 80.0
+  },
+  "Psybeam": {
+    "Type": "Psychic",
+    "PWR": 65.0,
+    "ENG": 50.0,
+    "Duration": 3.0,
+    "DPS": 21.67
+  },
+  "Psychic": {
+    "Type": "Psychic",
+    "PWR": 95.0,
+    "ENG": 50.0,
+    "Duration": 3.0,
+    "DPS": 31.67
+  },
+  "Psychic Fangs": {
+    "Type": "Psychic",
+    "PWR": 25.0,
+    "ENG": 33.0,
+    "Duration": 1.0,
+    "DPS": 25.0
+  },
+  "Psycho Boost": {
+    "Type": "Psychic",
+    "PWR": 70.0,
+    "ENG": 50.0,
+    "Duration": 4.0,
+    "DPS": 17.5
+  },
+  "Psyshock": {
+    "Type": "Psychic",
+    "PWR": 60.0,
+    "ENG": 33.0,
+    "Duration": 2.5,
+    "DPS": 24.0
+  },
+  "Psystrike": {
+    "Type": "Psychic",
+    "PWR": 95.0,
+    "ENG": 50.0,
+    "Duration": 2.5,
+    "DPS": 38.0
+  },
+  "Rage Fist": {
+    "Type": "Ghost",
+    "PWR": 100.0,
+    "ENG": 50.0,
+    "Duration": 3.0,
+    "DPS": 33.33
+  },
+  "Razor Shell": {
+    "Type": "Water",
+    "PWR": 55.0,
+    "ENG": 33.0,
+    "Duration": 1.5,
+    "DPS": 36.67
+  },
+  "Rest": {
+    "Type": "Normal",
+    "PWR": 50.0,
+    "ENG": 33.0,
+    "Duration": 2.0,
+    "DPS": 25.0
+  },
+  "Return": {
+    "Type": "Normal",
+    "PWR": 25.0,
+    "ENG": 33.0,
+    "Duration": 0.5,
+    "DPS": 50.0
+  },
+  "Roar of Time": {
+    "Type": "Dragon",
+    "PWR": 160.0,
+    "ENG": 100.0,
+    "Duration": 2.0,
+    "DPS": 80.0
+  },
+  "Rock Blast": {
+    "Type": "Rock",
+    "PWR": 50.0,
+    "ENG": 33.0,
+    "Duration": 2.0,
+    "DPS": 25.0
+  },
+  "Rock Slide": {
+    "Type": "Rock",
+    "PWR": 75.0,
+    "ENG": 50.0,
+    "Duration": 2.5,
+    "DPS": 30.0
+  },
+  "Rock Tomb": {
+    "Type": "Rock",
+    "PWR": 65.0,
+    "ENG": 50.0,
+    "Duration": 3.0,
+    "DPS": 21.67
+  },
+  "Rock Wrecker": {
+    "Type": "Rock",
+    "PWR": 110.0,
+    "ENG": 50.0,
+    "Duration": 3.5,
+    "DPS": 31.43
+  },
+  "Sacred Fire": {
+    "Type": "Fire",
+    "PWR": 120.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 48.0
+  },
+  "Sacred Fire+": {
+    "Type": "Fire",
+    "PWR": 135.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 54.0
+  },
+  "Sacred Fire++": {
+    "Type": "Fire",
+    "PWR": 155.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 62.0
+  },
+  "Sacred Sword": {
+    "Type": "Fighting",
+    "PWR": 50.0,
+    "ENG": 33.0,
+    "Duration": 1.0,
+    "DPS": 50.0
+  },
+  "Sand Tomb": {
+    "Type": "Ground",
+    "PWR": 60.0,
+    "ENG": 33.0,
+    "Duration": 4.0,
+    "DPS": 15.0
+  },
+  "Sandsear Storm": {
+    "Type": "Ground",
+    "PWR": 150.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 60.0
+  },
+  "Scald": {
+    "Type": "Water",
+    "PWR": 50.0,
+    "ENG": 100.0,
+    "Duration": 4.5,
+    "DPS": 11.11
+  },
+  "Scorching Sands": {
+    "Type": "Ground",
+    "PWR": 90.0,
+    "ENG": 50.0,
+    "Duration": 3.0,
+    "DPS": 30.0
+  },
+  "Seed Bomb": {
+    "Type": "Grass",
+    "PWR": 55.0,
+    "ENG": 33.0,
+    "Duration": 2.0,
+    "DPS": 27.5
+  },
+  "Seed Flare": {
+    "Type": "Grass",
+    "PWR": 115.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 46.0
+  },
+  "Shadow Ball": {
+    "Type": "Ghost",
+    "PWR": 100.0,
+    "ENG": 50.0,
+    "Duration": 3.0,
+    "DPS": 33.33
+  },
+  "Shadow Bone": {
+    "Type": "Ghost",
+    "PWR": 85.0,
+    "ENG": 50.0,
+    "Duration": 3.0,
+    "DPS": 28.33
+  },
+  "Shadow Force": {
+    "Type": "Ghost",
+    "PWR": 140.0,
+    "ENG": 100.0,
+    "Duration": 2.0,
+    "DPS": 70.0
+  },
+  "Shadow Punch": {
+    "Type": "Ghost",
+    "PWR": 35.0,
+    "ENG": 33.0,
+    "Duration": 1.5,
+    "DPS": 23.33
+  },
+  "Shadow Sneak": {
+    "Type": "Ghost",
+    "PWR": 50.0,
+    "ENG": 33.0,
+    "Duration": 3.0,
+    "DPS": 16.67
+  },
+  "Signal Beam": {
+    "Type": "Bug",
+    "PWR": 75.0,
+    "ENG": 50.0,
+    "Duration": 3.0,
+    "DPS": 25.0
+  },
+  "Silver Wind": {
+    "Type": "Bug",
+    "PWR": 65.0,
+    "ENG": 33.0,
+    "Duration": 3.5,
+    "DPS": 18.57
+  },
+  "Skull Bash": {
+    "Type": "Normal",
+    "PWR": 130.0,
+    "ENG": 100.0,
+    "Duration": 3.0,
+    "DPS": 43.33
+  },
+  "Sky Attack": {
+    "Type": "Flying",
+    "PWR": 80.0,
+    "ENG": 50.0,
+    "Duration": 2.0,
+    "DPS": 40.0
+  },
+  "Sludge": {
+    "Type": "Poison",
+    "PWR": 50.0,
+    "ENG": 33.0,
+    "Duration": 2.0,
+    "DPS": 25.0
+  },
+  "Sludge Bomb": {
+    "Type": "Poison",
+    "PWR": 85.0,
+    "ENG": 50.0,
+    "Duration": 2.5,
+    "DPS": 34.0
+  },
+  "Sludge Wave": {
+    "Type": "Poison",
+    "PWR": 105.0,
+    "ENG": 100.0,
+    "Duration": 3.0,
+    "DPS": 35.0
+  },
+  "Solar Beam": {
+    "Type": "Grass",
+    "PWR": 180.0,
+    "ENG": 100.0,
+    "Duration": 5.0,
+    "DPS": 36.0
+  },
+  "Spacial Rend": {
+    "Type": "Dragon",
+    "PWR": 160.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 64.0
+  },
+  "Sparkling Aria": {
+    "Type": "Water",
+    "PWR": 85.0,
+    "ENG": 33.0,
+    "Duration": 3.0,
+    "DPS": 28.33
+  },
+  "Spirit Shackle": {
+    "Type": "Ghost",
+    "PWR": 70.0,
+    "ENG": 33.0,
+    "Duration": 2.5,
+    "DPS": 28.0
+  },
+  "Stomp": {
+    "Type": "Normal",
+    "PWR": 50.0,
+    "ENG": 50.0,
+    "Duration": 1.5,
+    "DPS": 33.33
+  },
+  "Stone Edge": {
+    "Type": "Rock",
+    "PWR": 105.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 42.0
+  },
+  "Struggle": {
+    "Type": "Normal",
+    "PWR": 35.0,
+    "ENG": 0.0,
+    "Duration": 2.0,
+    "DPS": 17.5
+  },
+  "Submission": {
+    "Type": "Fighting",
+    "PWR": 55.0,
+    "ENG": 50.0,
+    "Duration": 2.0,
+    "DPS": 27.5
+  },
+  "Sunsteel Strike": {
+    "Type": "Steel",
+    "PWR": 230.0,
+    "ENG": 100.0,
+    "Duration": 3.0,
+    "DPS": 76.67
+  },
+  "Superpower": {
+    "Type": "Fighting",
+    "PWR": 85.0,
+    "ENG": 50.0,
+    "Duration": 3.0,
+    "DPS": 28.33
+  },
+  "Surf": {
+    "Type": "Water",
+    "PWR": 60.0,
+    "ENG": 50.0,
+    "Duration": 1.5,
+    "DPS": 40.0
+  },
+  "Swift": {
+    "Type": "Normal",
+    "PWR": 65.0,
+    "ENG": 50.0,
+    "Duration": 3.0,
+    "DPS": 21.67
+  },
+  "Synchronoise": {
+    "Type": "Psychic",
+    "PWR": 80.0,
+    "ENG": 50.0,
+    "Duration": 2.5,
+    "DPS": 32.0
+  },
+  "Techno Blast": {
+    "Type": "Electric",
+    "PWR": 120.0,
+    "ENG": 100.0,
+    "Duration": 2.0,
+    "DPS": 60.0
+  },
+  "Thunder": {
+    "Type": "Electric",
+    "PWR": 100.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 40.0
+  },
+  "Thunder Cage": {
+    "Type": "Electric",
+    "PWR": 220.0,
+    "ENG": 100.0,
+    "Duration": 3.3,
+    "DPS": 66.67
+  },
+  "Thunder Punch": {
+    "Type": "Electric",
+    "PWR": 50.0,
+    "ENG": 33.0,
+    "Duration": 2.0,
+    "DPS": 25.0
+  },
+  "Thunderbolt": {
+    "Type": "Electric",
+    "PWR": 80.0,
+    "ENG": 50.0,
+    "Duration": 2.5,
+    "DPS": 32.0
+  },
+  "Torch Song": {
+    "Type": "Fire",
+    "PWR": 100.0,
+    "ENG": 50.0,
+    "Duration": 3.5,
+    "DPS": 28.57
+  },
+  "Trailblaze": {
+    "Type": "Grass",
+    "PWR": 65.0,
+    "ENG": 50.0,
+    "Duration": 2.0,
+    "DPS": 32.5
+  },
+  "Tri Attack": {
+    "Type": "Normal",
+    "PWR": 75.0,
+    "ENG": 50.0,
+    "Duration": 2.5,
+    "DPS": 30.0
+  },
+  "Triple Axel": {
+    "Type": "Ice",
+    "PWR": 60.0,
+    "ENG": 33.0,
+    "Duration": 2.0,
+    "DPS": 30.0
+  },
+  "Twister": {
+    "Type": "Dragon",
+    "PWR": 50.0,
+    "ENG": 33.0,
+    "Duration": 3.0,
+    "DPS": 16.67
+  },
+  "Upper Hand": {
+    "Type": "Fighting",
+    "PWR": 50.0,
+    "ENG": 33.0,
+    "Duration": 2.0,
+    "DPS": 25.0
+  },
+  "V-create": {
+    "Type": "Fire",
+    "PWR": 105.0,
+    "ENG": 33.0,
+    "Duration": 3.0,
+    "DPS": 35.0
+  },
+  "Vise Grip": {
+    "Type": "Normal",
+    "PWR": 35.0,
+    "ENG": 33.0,
+    "Duration": 2.0,
+    "DPS": 17.5
+  },
+  "Volt Tackle": {
+    "Type": "Electric",
+    "PWR": 90.0,
+    "ENG": 33.0,
+    "Duration": 3.5,
+    "DPS": 25.71
+  },
+  "Water Pulse": {
+    "Type": "Water",
+    "PWR": 65.0,
+    "ENG": 50.0,
+    "Duration": 3.0,
+    "DPS": 21.67
+  },
+  "Weather Ball": {
+    "Type": "Normal",
+    "PWR": 55.0,
+    "ENG": 33.0,
+    "Duration": 1.5,
+    "DPS": 36.67
+  },
+  "Wild Charge": {
+    "Type": "Electric",
+    "PWR": 90.0,
+    "ENG": 50.0,
+    "Duration": 2.5,
+    "DPS": 36.0
+  },
+  "Wildbolt Storm": {
+    "Type": "Electric",
+    "PWR": 150.0,
+    "ENG": 100.0,
+    "Duration": 2.5,
+    "DPS": 60.0
+  },
+  "Wrap": {
+    "Type": "Normal",
+    "PWR": 25.0,
+    "ENG": 33.0,
+    "Duration": 3.0,
+    "DPS": 8.33
+  },
+  "X-Scissor": {
+    "Type": "Bug",
+    "PWR": 45.0,
+    "ENG": 33.0,
+    "Duration": 1.5,
+    "DPS": 30.0
+  },
+  "Zap Cannon": {
+    "Type": "Electric",
+    "PWR": 140.0,
+    "ENG": 100.0,
+    "Duration": 3.5,
+    "DPS": 40.0
+  }
+}

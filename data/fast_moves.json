@@ -1,0 +1,642 @@
+{
+  "Acid": {
+    "Type": "Poison",
+    "PWR": 11,
+    "ENG": 10,
+    "Duration": 1.0,
+    "EPS": 10.0,
+    "DPS": 11.0
+  },
+  "Air Slash": {
+    "Type": "Air",
+    "PWR": 12,
+    "ENG": 8,
+    "Duration": 1.0,
+    "EPS": 8.0,
+    "DPS": 12.0
+  },
+  "Astonish": {
+    "Type": "Ghost",
+    "PWR": 7,
+    "ENG": 13,
+    "Duration": 1.0,
+    "EPS": 13.0,
+    "DPS": 7.0
+  },
+  "Bite": {
+    "Type": "Dark",
+    "PWR": 6,
+    "ENG": 4,
+    "Duration": 0.5,
+    "EPS": 8.0,
+    "DPS": 12.0
+  },
+  "Bubble": {
+    "Type": "Water",
+    "PWR": 10,
+    "ENG": 12,
+    "Duration": 1.0,
+    "EPS": 12.0,
+    "DPS": 10.0
+  },
+  "Bug Bite": {
+    "Type": "Bug",
+    "PWR": 5,
+    "ENG": 6,
+    "Duration": 0.5,
+    "EPS": 12.0,
+    "DPS": 10.0
+  },
+  "Bullet Punch": {
+    "Type": "Steel",
+    "PWR": 10,
+    "ENG": 11,
+    "Duration": 1.0,
+    "EPS": 11.0,
+    "DPS": 10.0
+  },
+  "Bullet Seed": {
+    "Type": "Grass",
+    "PWR": 7,
+    "ENG": 13,
+    "Duration": 1.0,
+    "EPS": 13.0,
+    "DPS": 7.0
+  },
+  "Charge Beam": {
+    "Type": "Electric",
+    "PWR": 7,
+    "ENG": 14,
+    "Duration": 1.0,
+    "EPS": 14.0,
+    "DPS": 7.0
+  },
+  "Charm": {
+    "Type": "Fairy",
+    "PWR": 20,
+    "ENG": 11,
+    "Duration": 1.5,
+    "EPS": 7.33,
+    "DPS": 13.33
+  },
+  "Confusion": {
+    "Type": "Psychic",
+    "PWR": 19,
+    "ENG": 14,
+    "Duration": 1.5,
+    "EPS": 9.33,
+    "DPS": 12.67
+  },
+  "Counter": {
+    "Type": "Fighting",
+    "PWR": 13,
+    "ENG": 9,
+    "Duration": 1.0,
+    "EPS": 9.0,
+    "DPS": 13.0
+  },
+  "Cut": {
+    "Type": "Normal",
+    "PWR": 5,
+    "ENG": 5,
+    "Duration": 0.5,
+    "EPS": 10.0,
+    "DPS": 10.0
+  },
+  "Double Kick": {
+    "Type": "Fighting",
+    "PWR": 10,
+    "ENG": 13,
+    "Duration": 1.0,
+    "EPS": 13.0,
+    "DPS": 10.0
+  },
+  "Dragon Breath": {
+    "Type": "Dragon",
+    "PWR": 6,
+    "ENG": 4,
+    "Duration": 0.5,
+    "EPS": 8.0,
+    "DPS": 12.0
+  },
+  "Dragon Tail": {
+    "Type": "Dragon",
+    "PWR": 14,
+    "ENG": 8,
+    "Duration": 1.0,
+    "EPS": 8.0,
+    "DPS": 14.0
+  },
+  "Ember": {
+    "Type": "Fire",
+    "PWR": 10,
+    "ENG": 10,
+    "Duration": 1.0,
+    "EPS": 10.0,
+    "DPS": 10.0
+  },
+  "Extrasensory": {
+    "Type": "Psychic",
+    "PWR": 11,
+    "ENG": 11,
+    "Duration": 1.0,
+    "EPS": 11.0,
+    "DPS": 11.0
+  },
+  "Fairy Wind": {
+    "Type": "Fairy",
+    "PWR": 9,
+    "ENG": 13,
+    "Duration": 1.0,
+    "EPS": 13.0,
+    "DPS": 9.0
+  },
+  "Feint Attack": {
+    "Type": "Normal",
+    "PWR": 11,
+    "ENG": 10,
+    "Duration": 1.0,
+    "EPS": 10.0,
+    "DPS": 11.0
+  },
+  "Fire Fang": {
+    "Type": "Fire",
+    "PWR": 13,
+    "ENG": 9,
+    "Duration": 1.0,
+    "EPS": 9.0,
+    "DPS": 13.0
+  },
+  "Fire Spin": {
+    "Type": "Fire",
+    "PWR": 13,
+    "ENG": 9,
+    "Duration": 1.0,
+    "EPS": 9.0,
+    "DPS": 13.0
+  },
+  "Force Palm": {
+    "Type": "Fighting",
+    "PWR": 10,
+    "ENG": 16,
+    "Duration": 1.0,
+    "EPS": 16.0,
+    "DPS": 10.0
+  },
+  "Frost Breath": {
+    "Type": "Ice",
+    "PWR": 11,
+    "ENG": 9,
+    "Duration": 1.0,
+    "EPS": 9.0,
+    "DPS": 11.0
+  },
+  "Fury Cutter": {
+    "Type": "Bug",
+    "PWR": 4,
+    "ENG": 8,
+    "Duration": 0.5,
+    "EPS": 16.0,
+    "DPS": 8.0
+  },
+  "Geomancy": {
+    "Type": "Fairy",
+    "PWR": 20,
+    "ENG": 14,
+    "Duration": 1.5,
+    "EPS": 9.33,
+    "DPS": 13.33
+  },
+  "Gust": {
+    "Type": "Air",
+    "PWR": 25,
+    "ENG": 20,
+    "Duration": 2.0,
+    "EPS": 10.0,
+    "DPS": 12.5
+  },
+  "Hex": {
+    "Type": "Ghost",
+    "PWR": 8,
+    "ENG": 13,
+    "Duration": 1.0,
+    "EPS": 13.0,
+    "DPS": 8.0
+  },
+  "Hidden Power": {
+    "Type": "Normal",
+    "PWR": 15,
+    "ENG": 15,
+    "Duration": 1.5,
+    "EPS": 10.0,
+    "DPS": 10.0
+  },
+  "Ice Fang": {
+    "Type": "Ice",
+    "PWR": 12,
+    "ENG": 20,
+    "Duration": 1.5,
+    "EPS": 13.33,
+    "DPS": 8.0
+  },
+  "Ice Shard": {
+    "Type": "Ice",
+    "PWR": 10,
+    "ENG": 10,
+    "Duration": 1.0,
+    "EPS": 10.0,
+    "DPS": 10.0
+  },
+  "Incinerate": {
+    "Type": "Fire",
+    "PWR": 32,
+    "ENG": 22,
+    "Duration": 2.5,
+    "EPS": 8.8,
+    "DPS": 12.8
+  },
+  "Infestation": {
+    "Type": "Bug",
+    "PWR": 9,
+    "ENG": 13,
+    "Duration": 1.0,
+    "EPS": 13.0,
+    "DPS": 9.0
+  },
+  "Iron Tail": {
+    "Type": "Steel",
+    "PWR": 14,
+    "ENG": 6,
+    "Duration": 1.0,
+    "EPS": 6.0,
+    "DPS": 14.0
+  },
+  "Karate Chop": {
+    "Type": "Fighting",
+    "PWR": 10,
+    "ENG": 13,
+    "Duration": 1.0,
+    "EPS": 13.0,
+    "DPS": 10.0
+  },
+  "Leafage": {
+    "Type": "Grass",
+    "PWR": 6,
+    "ENG": 4,
+    "Duration": 0.5,
+    "EPS": 8.0,
+    "DPS": 12.0
+  },
+  "Lick": {
+    "Type": "Ghost",
+    "PWR": 5,
+    "ENG": 6,
+    "Duration": 0.5,
+    "EPS": 12.0,
+    "DPS": 10.0
+  },
+  "Lock-On": {
+    "Type": "Normal",
+    "PWR": 2,
+    "ENG": 10,
+    "Duration": 0.5,
+    "EPS": 20.0,
+    "DPS": 4.0
+  },
+  "Low Kick": {
+    "Type": "Fighting",
+    "PWR": 5,
+    "ENG": 5,
+    "Duration": 0.5,
+    "EPS": 10.0,
+    "DPS": 10.0
+  },
+  "Magical Leaf": {
+    "Type": "Grass",
+    "PWR": 17,
+    "ENG": 17,
+    "Duration": 1.5,
+    "EPS": 11.33,
+    "DPS": 11.33
+  },
+  "Metal Claw": {
+    "Type": "Steel",
+    "PWR": 6,
+    "ENG": 5,
+    "Duration": 0.5,
+    "EPS": 10.0,
+    "DPS": 12.0
+  },
+  "Metal Sound": {
+    "Type": "Steel",
+    "PWR": 4,
+    "ENG": 6,
+    "Duration": 0.5,
+    "EPS": 12.0,
+    "DPS": 8.0
+  },
+  "Mud Shot": {
+    "Type": "Ground",
+    "PWR": 4,
+    "ENG": 6,
+    "Duration": 0.5,
+    "EPS": 12.0,
+    "DPS": 8.0
+  },
+  "Mud-Slap": {
+    "Type": "Ground",
+    "PWR": 19,
+    "ENG": 13,
+    "Duration": 1.5,
+    "EPS": 8.67,
+    "DPS": 12.67
+  },
+  "Peck": {
+    "Type": "Air",
+    "PWR": 10,
+    "ENG": 10,
+    "Duration": 1.0,
+    "EPS": 10.0,
+    "DPS": 10.0
+  },
+  "Poison Jab": {
+    "Type": "Poison",
+    "PWR": 13,
+    "ENG": 9,
+    "Duration": 1.0,
+    "EPS": 9.0,
+    "DPS": 13.0
+  },
+  "Poison Sting": {
+    "Type": "Poison",
+    "PWR": 4,
+    "ENG": 6,
+    "Duration": 0.5,
+    "EPS": 12.0,
+    "DPS": 8.0
+  },
+  "Pound": {
+    "Type": "Normal",
+    "PWR": 6,
+    "ENG": 5,
+    "Duration": 0.5,
+    "EPS": 10.0,
+    "DPS": 12.0
+  },
+  "Powder Snow": {
+    "Type": "Ice",
+    "PWR": 6,
+    "ENG": 15,
+    "Duration": 1.0,
+    "EPS": 15.0,
+    "DPS": 6.0
+  },
+  "Present": {
+    "Type": "Normal",
+    "PWR": 6,
+    "ENG": 23,
+    "Duration": 1.5,
+    "EPS": 15.33,
+    "DPS": 4.0
+  },
+  "Psycho Cut": {
+    "Type": "Psychic",
+    "PWR": 4,
+    "ENG": 7,
+    "Duration": 0.5,
+    "EPS": 14.0,
+    "DPS": 8.0
+  },
+  "Psywave": {
+    "Type": "Psychic",
+    "PWR": 4,
+    "ENG": 7,
+    "Duration": 0.5,
+    "EPS": 14.0,
+    "DPS": 8.0
+  },
+  "Quick Attack": {
+    "Type": "Normal",
+    "PWR": 10,
+    "ENG": 13,
+    "Duration": 1.0,
+    "EPS": 13.0,
+    "DPS": 10.0
+  },
+  "Razor Leaf": {
+    "Type": "Grass",
+    "PWR": 13,
+    "ENG": 7,
+    "Duration": 1.0,
+    "EPS": 7.0,
+    "DPS": 13.0
+  },
+  "Rock Smash": {
+    "Type": "Fighting",
+    "PWR": 17,
+    "ENG": 12,
+    "Duration": 1.5,
+    "EPS": 8.0,
+    "DPS": 11.33
+  },
+  "Rock Throw": {
+    "Type": "Rock",
+    "PWR": 13,
+    "ENG": 8,
+    "Duration": 1.0,
+    "EPS": 8.0,
+    "DPS": 13.0
+  },
+  "Rollout": {
+    "Type": "Rock",
+    "PWR": 15,
+    "ENG": 19,
+    "Duration": 1.5,
+    "EPS": 12.67,
+    "DPS": 10.0
+  },
+  "Sand Attack": {
+    "Type": "Ground",
+    "PWR": 4,
+    "ENG": 7,
+    "Duration": 0.5,
+    "EPS": 14.0,
+    "DPS": 8.0
+  },
+  "Scratch": {
+    "Type": "Normal",
+    "PWR": 6,
+    "ENG": 4,
+    "Duration": 0.5,
+    "EPS": 8.0,
+    "DPS": 12.0
+  },
+  "Shadow Claw": {
+    "Type": "Ghost",
+    "PWR": 6,
+    "ENG": 4,
+    "Duration": 0.5,
+    "EPS": 8.0,
+    "DPS": 12.0
+  },
+  "Smack Down": {
+    "Type": "Rock",
+    "PWR": 13,
+    "ENG": 7,
+    "Duration": 1.0,
+    "EPS": 7.0,
+    "DPS": 13.0
+  },
+  "Snarl": {
+    "Type": "Dark",
+    "PWR": 11,
+    "ENG": 13,
+    "Duration": 1.0,
+    "EPS": 13.0,
+    "DPS": 11.0
+  },
+  "Spark": {
+    "Type": "Electric",
+    "PWR": 4,
+    "ENG": 6,
+    "Duration": 0.5,
+    "EPS": 12.0,
+    "DPS": 8.0
+  },
+  "Splash": {
+    "Type": "Water",
+    "PWR": 0,
+    "ENG": 17,
+    "Duration": 1.5,
+    "EPS": 11.33,
+    "DPS": 0.0
+  },
+  "Steel Wing": {
+    "Type": "Steel",
+    "PWR": 14,
+    "ENG": 8,
+    "Duration": 1.0,
+    "EPS": 8.0,
+    "DPS": 14.0
+  },
+  "Struggle Bug": {
+    "Type": "Bug",
+    "PWR": 15,
+    "ENG": 15,
+    "Duration": 1.5,
+    "EPS": 10.0,
+    "DPS": 10.0
+  },
+  "Sucker Punch": {
+    "Type": "Dark",
+    "PWR": 5,
+    "ENG": 6,
+    "Duration": 0.5,
+    "EPS": 12.0,
+    "DPS": 10.0
+  },
+  "Tackle": {
+    "Type": "Normal",
+    "PWR": 5,
+    "ENG": 5,
+    "Duration": 0.5,
+    "EPS": 10.0,
+    "DPS": 10.0
+  },
+  "Take Down": {
+    "Type": "Normal",
+    "PWR": 7,
+    "ENG": 8,
+    "Duration": 1.0,
+    "EPS": 8.0,
+    "DPS": 7.0
+  },
+  "Thunder Fang": {
+    "Type": "Electric",
+    "PWR": 10,
+    "ENG": 13,
+    "Duration": 1.0,
+    "EPS": 13.0,
+    "DPS": 10.0
+  },
+  "Thunder Shock": {
+    "Type": "Electric",
+    "PWR": 4,
+    "ENG": 7,
+    "Duration": 0.5,
+    "EPS": 14.0,
+    "DPS": 8.0
+  },
+  "Transform": {
+    "Type": "Normal",
+    "PWR": 0,
+    "ENG": 0,
+    "Duration": 2.0,
+    "EPS": 0.0,
+    "DPS": 0.0
+  },
+  "Vine Whip": {
+    "Type": "Grass",
+    "PWR": 6,
+    "ENG": 5,
+    "Duration": 0.5,
+    "EPS": 10.0,
+    "DPS": 12.0
+  },
+  "Volt Switch": {
+    "Type": "Electric",
+    "PWR": 13,
+    "ENG": 20,
+    "Duration": 1.5,
+    "EPS": 13.33,
+    "DPS": 8.67
+  },
+  "Water Gun": {
+    "Type": "Water",
+    "PWR": 5,
+    "ENG": 5,
+    "Duration": 0.5,
+    "EPS": 10.0,
+    "DPS": 10.0
+  },
+  "Water Shuriken": {
+    "Type": "Water",
+    "PWR": 9,
+    "ENG": 14,
+    "Duration": 1.0,
+    "EPS": 14.0,
+    "DPS": 9.0
+  },
+  "Waterfall": {
+    "Type": "Water",
+    "PWR": 13,
+    "ENG": 7,
+    "Duration": 1.0,
+    "EPS": 7.0,
+    "DPS": 13.0
+  },
+  "Wing Attack": {
+    "Type": "Air",
+    "PWR": 10,
+    "ENG": 11,
+    "Duration": 1.0,
+    "EPS": 11.0,
+    "DPS": 10.0
+  },
+  "Yawn": {
+    "Type": "Normal",
+    "PWR": 0,
+    "ENG": 13,
+    "Duration": 1.5,
+    "EPS": 8.67,
+    "DPS": 0.0
+  },
+  "Zen Headbutt": {
+    "Type": "Psychic",
+    "PWR": 11,
+    "ENG": 9,
+    "Duration": 1.0,
+    "EPS": 9.0,
+    "DPS": 11.0
+  }
+}
