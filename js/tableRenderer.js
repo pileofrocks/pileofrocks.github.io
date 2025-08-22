@@ -1,5 +1,5 @@
 function generateTable(data, tableId, containerId) {
-    #console.log(data)
+    //console.log(data)
     const container = document.getElementById(containerId);
     container.innerHTML = ''; // Clear the container
 
