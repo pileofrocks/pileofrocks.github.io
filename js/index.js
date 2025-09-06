@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             const reader = new FileReader();
             reader.onload = function(e) {
                 const csvText = e.target.result;
-                let pokemonData = parseCSV(csvText);
+                let {results: pokemonData, errorLog} = parseCSV(csvText);
 
                 if (pokemonData.length > 0) {
                     messageBox.textContent = `File "${file.name}" uploaded successfully! Parsed ${pokemonData.length} Pokémon.`;
@@ -44,6 +44,9 @@ document.addEventListener('DOMContentLoaded', async () => {
 
                     // Render the Charge Move TM Tab
                     createCMTMReport(pokemonData);
+
+                    // Render Error Tab
+                    createErrorReport(errorLog);
 
                 } else {
                     messageBox.textContent = 'CSV file is empty or formatted incorrectly.';
