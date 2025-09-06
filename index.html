@@ -19,7 +19,7 @@
         </div>
 
         <div id="upload-section">
-            <p>Please upload your Poke Genie CSV file to get started!</p>
+            <p>Please upload your Pokie Genie CSV file to get started!</p>
             <input type="file" id="file-input" accept=".csv">
             <label for="file-input" id="upload-label">Choose File</label>
             <div id="message-box"></div>
@@ -32,8 +32,9 @@
 <!--                <button class="tab-button" onclick="showTab('pve-report')">PvE Report</button>-->
 <!--                <button class="tab-button" onclick="showTab('pvp-report')">PvP Report</button>-->
                 <button class="tab-button" onclick="showTab('fm-tm-report')">Fast Move TM Report</button>
-                <button class="tab-button" onclick="showTab('cm-tm-report')">Charge Move TMs Report</button>
+                <button class="tab-button" onclick="showTab('cm-tm-report')">Charge Move TM Report</button>
 <!--                <button class="tab-button" onclick="showTab('evolution-report')">Evolution Report</button>-->
+                <button class="tab-button" onclick="showTab('error-report')">Error Report</button>
             </div>
 
             <div id="summary-report" class="report-section active">
@@ -141,6 +142,12 @@
 <!--                <h2 class="text-xl font-bold mb-4">Evolution Items Report</h2>-->
 <!--                <p>This report will show the best Pokémon to use your evolution items on.</p>-->
 <!--            </div>-->
+
+            <div id="error-report" class="report-section">
+                <h2 class="text-xl font-bold mb-4">Error Report</h2>
+                <p>This report shows pokemon not used in other tabs due to missing information.</p>
+                <div id="error-results" class="error-list"></div>
+            </div>
         </div>
     </div>
 
@@ -173,8 +180,8 @@
     <script src="/js/stardustTab.js"></script>
     <script src="/js/fmTMTab.js"></script>
     <script src="/js/cmTMTab.js"></script>
+    <script src="/js/errorTab.js"></script>
     <script src="/js/index.js"></script>
-
 
 </body>
 </html>

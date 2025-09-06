@@ -35,29 +35,35 @@ function parsePokemon(pokeGeneImport) {
         const pokemon = {};
 
         // actual pokemon
-        pokemon.actual = createActualPokemon(p);
-        if (!pokemon.actual) {
-            logError('ActualPokemonError', 'Failed to create actual pokemon');
+        ({actual: pokemon.actual, e} = createActualPokemon(p));
+        if (e) {
+            errorLog.push(e);
             continue;
         }
 
         // final evolution
-        feName = getFinalEvolution(pokemon.actual.nameForm, window.pokedex);
-        pokemon.finalEvolve = createFEPokemon(feName, pokemon.actual);
-        if (!pokemon.finalEvolve) {
-            logError('FinalEvolutionError', 'Failed to create final evolution pokemon');
+        try {
+            feName = getFinalEvolution(pokemon.actual.nameForm, window.pokedex);
+        } catch (error) {
+            errorLog.push({p, error, message: "Error finding final evolution"});
+            continue;
+        }
+
+        ({finalEvolve: pokemon.finalEvolve, e} = createFEPokemon(feName, pokemon.actual));
+        if (e) {
+            errorLog.push(e);
             continue;
         }
 
         // Scores
         pokemon.scores = createScores(pokemon);
         if (!pokemon.scores) {
-            logError('ScoreError', 'Failed to create scores for pokemon');
+            errorLog.push({p, error:"", message: "Error calculating scores"});
             continue;
         }
         results.push(pokemon);
     }
-    return results;
+    return {results,errorLog};
 }
 
 function createActualPokemon(p) {
@@ -65,35 +71,42 @@ function createActualPokemon(p) {
     const nameForm = p.Form ? `${p.Name} ${p.Form}` : p.Name;
     const pokedexEntry = getPokedex(nameForm);
     if (!pokedexEntry) {
-        return null;
+        return {actual: null, e: {p, error: "", message: "Unknown Pokemon"}};
     }
 
     // Header
-    actual.name = p.Name;
-    actual.form = p.Form;
-    actual.nameForm = nameForm;
-    actual.type = pokedexEntry.types;
-    actual.lucky = (p.Lucky == 1);
-    actual.shadow = (p['Shadow/Purified'] == 1);
-    actual.purified = (p['Shadow/Purified'] == 2);
-    actual.displayName = ((actual.shadow) ? 'Shadow ' + actual.name : actual.name);
+    try {
+        actual.name = p.Name;
+        actual.form = p.Form;
+        actual.nameForm = nameForm;
+        actual.type = pokedexEntry.types;
+        actual.lucky = (p.Lucky == 1);
+        actual.shadow = (p['Shadow/Purified'] == 1);
+        actual.purified = (p['Shadow/Purified'] == 2);
+        actual.displayName = ((actual.shadow) ? 'Shadow ' + actual.name : actual.name);
+    } catch (error) {
+        return {actual: null, e: {p, error, message: "Missing Header Info"}};
+    }
 
     // Stats
-    // Stats
-    actual.CP = p.CP;
-    actual.HP = p.HP;
-    actual.atkIV = parseInt(p['Atk IV']) || 0;
-    actual.defIV = parseInt(p['Def IV']) || 0;
-    actual.staIV = parseInt(p['Sta IV']) || 0;
-    actual.IVAvg = parseInt(p['IV Avg']) || 0;
-    actual.level = parseFloat(p['Level Max']) || 1;
-    actual.CPM = getCPMValue(actual.level);
-    actual.baseAtk = pokedexEntry.base_atk;
-    actual.baseDef = pokedexEntry.base_def;
-    actual.baseSta = pokedexEntry.base_sta;
+    try {
+        actual.CP = p.CP;
+        actual.HP = p.HP;
+        actual.atkIV = parseInt(p['Atk IV']) || 0;
+        actual.defIV = parseInt(p['Def IV']) || 0;
+        actual.staIV = parseInt(p['Sta IV']) || 0;
+        actual.IVAvg = parseInt(p['IV Avg']) || 0;
+        actual.level = parseFloat(p['Level Max']) || 1;
+        actual.CPM = getCPMValue(actual.level);
+        actual.baseAtk = pokedexEntry.base_atk;
+        actual.baseDef = pokedexEntry.base_def;
+        actual.baseSta = pokedexEntry.base_sta;
+    } catch (error) {
+        return {actual: null, e: {p, error, message: "Missing Stats Info"}};
+    }
 
     // Moves
-    if (p['Quick Move'] && window.fastMoves[p['Quick Move']]) {
+    try {
         actual.fastMove = window.fastMoves[p['Quick Move']];
         actual.fastMove.Name = p['Quick Move'];
         if (actual.type.includes(actual.fastMove.Type)) {
@@ -101,11 +114,11 @@ function createActualPokemon(p) {
         } else {
             actual.fastMove.STAB = 1.0;
         }
-    } else {
-        return null;
+    } catch (error) {
+        return {actual: null, e: {p, error, message: "Missing Fast Move Info"}};
     }
 
-    if (p['Charge Move'] && window.chargedMoves[p['Charge Move']]) {
+    try {
         actual.chargeMove = window.chargedMoves[p['Charge Move']];
         actual.chargeMove.Name = p['Charge Move'];
         if (actual.type.includes(actual.chargeMove.Type)) {
@@ -113,45 +126,47 @@ function createActualPokemon(p) {
         } else {
             actual.chargeMove.STAB = 1.0;
         }
-    } else {
-        return null;
+    } catch (error) {
+        return {actual: null, e: {p, error, message: "Missing Charge Move Info"}};
     }
-    const idealMoveset = getIdealMoveset(nameForm, window.pokedex);
-    actual.idealFastMove = window.fastMoves[idealMoveset.fastMove];
-    actual.idealFastMove.Name = idealMoveset.fastMove;
-    actual.idealChargeMove = window.chargedMoves[idealMoveset.chargeMove];
-    actual.idealChargeMove.Name = idealMoveset.chargeMove;
 
-    // DPS and TDO
-    ({ dps: actual.dps, tdo: actual.tdo, fdps: actual.fastMove.dps, cdps: actual.chargeMove.dps } = pokeCalc(
-        actual.atkIV, actual.defIV, actual.staIV,
-        actual.baseAtk, actual.baseDef, actual.baseSta,
-        actual.CPM, actual.fastMove, actual.chargeMove));
-    ({ dpsNorm: actual.dpsNorm, tdoNorm: actual.tdoNorm } = normalizeDPSTDO(actual.dps, actual.tdo));
-    // ideal fast move DPS
-    ({ dps: actual.idealFMDPS, tdo: actual.idealFMTDO, fdps: actual.idealFastMove.dps} =
-        pokeCalc(actual.atkIV, actual.defIV, actual.staIV,
-        actual.baseAtk, actual.baseDef, actual.baseSta,
-        actual.CPM, actual.idealFastMove, actual.chargeMove));
-    // ideal charge move DPS
-    ({ dps: actual.idealCMDPS, tdo: actual.idealCMTDO, cdps: actual.idealChargeMove.dps } =
-        pokeCalc(actual.atkIV, actual.defIV, actual.staIV,
+    try {
+        const idealMoveset = getIdealMoveset(nameForm, window.pokedex);
+        actual.idealFastMove = window.fastMoves[idealMoveset.fastMove];
+        actual.idealFastMove.Name = idealMoveset.fastMove;
+        actual.idealChargeMove = window.chargedMoves[idealMoveset.chargeMove];
+        actual.idealChargeMove.Name = idealMoveset.chargeMove;
+    } catch (error) {
+        return {actual: null, e: {p, error, message: "Missing Ideal Move Info"}};
+    }
+
+    try {
+        // DPS and TDO
+        ({dps: actual.dps, tdo: actual.tdo, fdps: actual.fastMove.dps, cdps: actual.chargeMove.dps} = pokeCalc(
+            actual.atkIV, actual.defIV, actual.staIV,
             actual.baseAtk, actual.baseDef, actual.baseSta,
-            actual.CPM, actual.fastMove, actual.idealChargeMove));
+            actual.CPM, actual.fastMove, actual.chargeMove));
+        ({dpsNorm: actual.dpsNorm, tdoNorm: actual.tdoNorm} = normalizeDPSTDO(actual.dps, actual.tdo));
+        // ideal fast move DPS
+        ({dps: actual.idealFMDPS, tdo: actual.idealFMTDO, fdps: actual.idealFastMove.dps} =
+            pokeCalc(actual.atkIV, actual.defIV, actual.staIV,
+                actual.baseAtk, actual.baseDef, actual.baseSta,
+                actual.CPM, actual.idealFastMove, actual.chargeMove));
+        // ideal charge move DPS
+        ({dps: actual.idealCMDPS, tdo: actual.idealCMTDO, cdps: actual.idealChargeMove.dps} =
+            pokeCalc(actual.atkIV, actual.defIV, actual.staIV,
+                actual.baseAtk, actual.baseDef, actual.baseSta,
+                actual.CPM, actual.fastMove, actual.idealChargeMove));
+    } catch (error) {
+        return {actual: null, e: {p, error, message: "Error calculating DPS/TDO"}};
+    }
 
-    return actual;
+    return {actual, e: null};
 }
 
 function getPokedex(nameForm) {
-    let pokedexEntry;
 
-    pokedexEntry = window.pokedex[nameForm];
-    if (!pokedexEntry) {
-        console.error(`This is an unknown Pokemon! ${nameForm}`);
-        return null;
-    }
-
-    return pokedexEntry;
+    return window.pokedex[nameForm];
 }
 
 function pokeCalc(attackIv, defenseIv, staminaIv,
@@ -260,51 +275,87 @@ function getCPMValue(level) {
 function createFEPokemon(feName, actual) {
     const finalEvolve = {};
     const pokedexEntry = getPokedex(feName);
+    if (!pokedexEntry) {
+        return {finalEvolve: null, e: {actual, error: "", message: "Unknown Final Evolution"}};
+    }
 
     // Header
-    finalEvolve.name = feName;
-    finalEvolve.form = null;
-    finalEvolve.nameForm = feName;
-    finalEvolve.type = pokedexEntry.types;
-    finalEvolve.lucky = actual.lucky;
-    finalEvolve.shadow = actual.shadow;
-    finalEvolve.purified = actual.purified;
+    try {
+        finalEvolve.name = feName;
+        finalEvolve.form = null;
+        finalEvolve.nameForm = feName;
+        finalEvolve.type = pokedexEntry.types;
+        finalEvolve.lucky = actual.lucky;
+        finalEvolve.shadow = actual.shadow;
+        finalEvolve.purified = actual.purified;
+    } catch (error) {
+        return {finalEvolve: null, e: {actual, error, message: "Missing Final Evolution Header Info"}};
+    }
 
     // Stats
-    finalEvolve.CP = null;
-    finalEvolve.HP = null;
-    finalEvolve.atkIV = actual.atkIV;
-    finalEvolve.defIV = actual.defIV;
-    finalEvolve.staIV = actual.staIV;
-    finalEvolve.level = 40.0;
-    finalEvolve.CPM = getCPMValue(finalEvolve.level);
-    finalEvolve.baseAtk = pokedexEntry.base_atk;
-    finalEvolve.baseDef = pokedexEntry.base_def;
-    finalEvolve.baseSta = pokedexEntry.base_sta;
+    try {
+        finalEvolve.CP = null;
+        finalEvolve.HP = null;
+        finalEvolve.atkIV = actual.atkIV;
+        finalEvolve.defIV = actual.defIV;
+        finalEvolve.staIV = actual.staIV;
+        finalEvolve.level = 40.0;
+        finalEvolve.CPM = getCPMValue(finalEvolve.level);
+        finalEvolve.baseAtk = pokedexEntry.base_atk;
+        finalEvolve.baseDef = pokedexEntry.base_def;
+        finalEvolve.baseSta = pokedexEntry.base_sta;
+    } catch (error) {
+        return {finalEvolve: null, e: {actual, error, message: "Missing Final Evolution Stats Info"}};
+    }
 
     // Moves - assume best possible moveset
-    ({fastMove: fastMoveName, chargeMove: chargeMoveName} = getIdealMoveset(feName, window.pokedex));
-    finalEvolve.fastMove = window.fastMoves[fastMoveName];
-    finalEvolve.chargeMove = window.chargedMoves[chargeMoveName];
-    if (finalEvolve.type.includes(finalEvolve.fastMove.Type)) {
-        finalEvolve.fastMove.STAB = 1.2;
-    } else {
-        finalEvolve.fastMove.STAB = 1.0;
-    }
-    if (finalEvolve.type.includes(finalEvolve.chargeMove.Type)) {
-        finalEvolve.chargeMove.STAB = 1.2;
-    } else {
-        finalEvolve.chargeMove.STAB = 1.0;
+    try {
+        ({fastMove: fastMoveName, chargeMove: chargeMoveName} = getIdealMoveset(feName, window.pokedex));
+    } catch (error) {
+        return {finalEvolve: null, e: {actual, error, message: "Missing Final Evolution Ideal Move Info"}};
     }
 
-    // DPS and TDO
-    ({ dps: finalEvolve.dps, tdo: finalEvolve.tdo } = pokeCalc(finalEvolve.atkIV, finalEvolve.defIV, finalEvolve.staIV,
-        finalEvolve.baseAtk, finalEvolve.baseDef, finalEvolve.baseSta,
-        finalEvolve.CPM, finalEvolve.fastMove, finalEvolve.chargeMove));
+    try {
+        finalEvolve.fastMove = window.fastMoves[fastMoveName];
 
-    ({ dpsNorm: finalEvolve.dpsNorm, tdoNorm: finalEvolve.tdoNorm } = normalizeDPSTDO(finalEvolve.dps, finalEvolve.tdo));
+        if (finalEvolve.type.includes(finalEvolve.fastMove.Type)) {
+            finalEvolve.fastMove.STAB = 1.2;
+        } else {
+            finalEvolve.fastMove.STAB = 1.0;
+        }
+    } catch (error) {
+        return {finalEvolve: null, e: {actual, error, message: "Missing Final Evolution Fast Move Info"}};
+    }
 
-    return finalEvolve;
+    try {
+        finalEvolve.chargeMove = window.chargedMoves[chargeMoveName];
+        if (finalEvolve.type.includes(finalEvolve.chargeMove.Type)) {
+            finalEvolve.chargeMove.STAB = 1.2;
+        } else {
+            finalEvolve.chargeMove.STAB = 1.0;
+        }
+    } catch (error) {
+        return {finalEvolve: null, e: {actual, error, message: "Missing Final Evolution Charge Move Info"}};
+    }
+
+    try {
+        // DPS and TDO
+        ({
+            dps: finalEvolve.dps,
+            tdo: finalEvolve.tdo
+        } = pokeCalc(finalEvolve.atkIV, finalEvolve.defIV, finalEvolve.staIV,
+            finalEvolve.baseAtk, finalEvolve.baseDef, finalEvolve.baseSta,
+            finalEvolve.CPM, finalEvolve.fastMove, finalEvolve.chargeMove));
+
+        ({
+            dpsNorm: finalEvolve.dpsNorm,
+            tdoNorm: finalEvolve.tdoNorm
+        } = normalizeDPSTDO(finalEvolve.dps, finalEvolve.tdo));
+    } catch (error) {
+        return {finalEvolve: null, e: {actual, error, message: "Error calculating Final Evolution DPS/TDO"}};
+    }
+
+    return {finalEvolve, e: null};
 }
 
 function createScores(pokemon) {

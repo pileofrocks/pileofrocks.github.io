@@ -260,3 +260,30 @@ table {
 .cmtm-card p {
     margin-bottom: 0.25rem;
 }
+
+.error-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.error-card {
+    background-color: #f4f4f4;
+    border: 2px solid #333;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.error-card h4 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.error-card p {
+    margin-bottom: 0.25rem;
+}
