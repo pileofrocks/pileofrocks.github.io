@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         window.chargedMoves = await fetch('data/charged_moves.json').then(response => response.json());
         window.cpm = await fetch('data/cp_multiplier.json').then(response => response.json());
 
-        console.log("Static data loaded:", { pokedex, fastMoves, chargedMoves, cpm });
     } catch (error) {
         console.error("Failed to load static data:", error);
     }
@@ -32,7 +31,6 @@ document.addEventListener('DOMContentLoaded', async () => {
                     document.getElementById('upload-section').style.display = 'none';
                     appContent.style.display = 'block';
 
-                    console.log(pokemonData);
                     // Render the Summary Tab
                     createSummary(pokemonData);
 

@@ -8,7 +8,6 @@ function createStardustReport(pokemonData) {
     const pveCandidates = []
     pokemonData.forEach(p => {
         if (p.scores.stardustScore) {
-            // console.log(p)
             if (p.scores.stardustScore > 0.0) {
                 pveCandidates.push(p);
             }

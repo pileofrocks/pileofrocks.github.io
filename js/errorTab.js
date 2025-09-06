@@ -7,7 +7,7 @@ function createErrorReport(errorLog) {
 
     if (errorLog.length > 0) {
         errorLog.forEach(error => {
-            console.log(error);
+
             const card = document.createElement('div');
             card.className = 'error-card';
             card.innerHTML = `

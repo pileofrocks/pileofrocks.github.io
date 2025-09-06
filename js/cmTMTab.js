@@ -10,7 +10,6 @@ function createCMTMReport(pokemonData) {
             chargeTMCandidates.push(p);
         }
     });
-    console.log(chargeTMCandidates);
 
     // Sort by fm tm score in descending order to show the most cost-effective first
     chargeTMCandidates.sort((a, b) => parseFloat(b.scores.cmTMScore) - parseFloat(a.scores.cmTMScore));
