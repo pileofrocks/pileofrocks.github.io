@@ -1,19 +1,12 @@
 // A list of image URLs to randomly choose from
 const images = [
-    'images/rotomdex_closed_eyes_overlay.png',
-    'images/rotomdex_drowsy_eyes_overlay.png',
-    'images/rotomdex_overlay_mouth_blushing.png',
-    'images/rotomdex_overlay_mouth_blushing.png',
-    'images/rotomdex_overlay_mouth_bothered_noblush.png',
-    'images/rotomdex_overlay_mouth_frown.png',
-    'images/rotomdex_overlay_mouth_frownNoTeeth.png',
-    'images/rotomdex_overlay_mouth_grin.png',
-    'images/rotomdex_overlay_mouth_shock.png',
-    'images/rotomdex_overlay_mouth_slightfrown.png',
-    'images/rotomdex_overlay_mouth_smile.png',
-    'images/rotomdex_overlay_mouth_smileNoTeeth.png',
-    'images/rotomdex_overlay_mouth_talking.png',
-    'images/rotomdex_overlay_mouth_talking.png'
+    'images/Rotomdex_bigsmile.png',
+    'images/Rotomdex_blush.png',
+    'images/Rotomdex_frown.png',
+    'images/Rotomdex_sleep.png',
+    'images/Rotomdex_smile.png',
+    'images/Rotomdex_surprise.png',
+    'images/Rotomdex_zzzt.png'
 ];
 
 // Get the image element by its ID
