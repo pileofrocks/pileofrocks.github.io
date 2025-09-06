@@ -1,6 +1,6 @@
 {
   "Acid": {
-    "Type": "Poison",
+    "Type": "poison",
     "PWR": 11,
     "ENG": 10,
     "Duration": 1.0,
@@ -8,7 +8,7 @@
     "DPS": 11.0
   },
   "Air Slash": {
-    "Type": "Air",
+    "Type": "flying",
     "PWR": 12,
     "ENG": 8,
     "Duration": 1.0,
@@ -16,7 +16,7 @@
     "DPS": 12.0
   },
   "Astonish": {
-    "Type": "Ghost",
+    "Type": "ghost",
     "PWR": 7,
     "ENG": 13,
     "Duration": 1.0,
@@ -24,7 +24,7 @@
     "DPS": 7.0
   },
   "Bite": {
-    "Type": "Dark",
+    "Type": "dark",
     "PWR": 6,
     "ENG": 4,
     "Duration": 0.5,
@@ -32,7 +32,7 @@
     "DPS": 12.0
   },
   "Bubble": {
-    "Type": "Water",
+    "Type": "water",
     "PWR": 10,
     "ENG": 12,
     "Duration": 1.0,
@@ -40,7 +40,7 @@
     "DPS": 10.0
   },
   "Bug Bite": {
-    "Type": "Bug",
+    "Type": "bug",
     "PWR": 5,
     "ENG": 6,
     "Duration": 0.5,
@@ -48,7 +48,7 @@
     "DPS": 10.0
   },
   "Bullet Punch": {
-    "Type": "Steel",
+    "Type": "steel",
     "PWR": 10,
     "ENG": 11,
     "Duration": 1.0,
@@ -56,7 +56,7 @@
     "DPS": 10.0
   },
   "Bullet Seed": {
-    "Type": "Grass",
+    "Type": "grass",
     "PWR": 7,
     "ENG": 13,
     "Duration": 1.0,
@@ -64,7 +64,7 @@
     "DPS": 7.0
   },
   "Charge Beam": {
-    "Type": "Electric",
+    "Type": "electric",
     "PWR": 7,
     "ENG": 14,
     "Duration": 1.0,
@@ -72,7 +72,7 @@
     "DPS": 7.0
   },
   "Charm": {
-    "Type": "Fairy",
+    "Type": "fairy",
     "PWR": 20,
     "ENG": 11,
     "Duration": 1.5,
@@ -80,7 +80,7 @@
     "DPS": 13.33
   },
   "Confusion": {
-    "Type": "Psychic",
+    "Type": "psychic",
     "PWR": 19,
     "ENG": 14,
     "Duration": 1.5,
@@ -88,7 +88,7 @@
     "DPS": 12.67
   },
   "Counter": {
-    "Type": "Fighting",
+    "Type": "fighting",
     "PWR": 13,
     "ENG": 9,
     "Duration": 1.0,
@@ -96,7 +96,7 @@
     "DPS": 13.0
   },
   "Cut": {
-    "Type": "Normal",
+    "Type": "normal",
     "PWR": 5,
     "ENG": 5,
     "Duration": 0.5,
@@ -104,7 +104,7 @@
     "DPS": 10.0
   },
   "Double Kick": {
-    "Type": "Fighting",
+    "Type": "fighting",
     "PWR": 10,
     "ENG": 13,
     "Duration": 1.0,
@@ -112,7 +112,7 @@
     "DPS": 10.0
   },
   "Dragon Breath": {
-    "Type": "Dragon",
+    "Type": "dragon",
     "PWR": 6,
     "ENG": 4,
     "Duration": 0.5,
@@ -120,7 +120,7 @@
     "DPS": 12.0
   },
   "Dragon Tail": {
-    "Type": "Dragon",
+    "Type": "dragon",
     "PWR": 14,
     "ENG": 8,
     "Duration": 1.0,
@@ -128,7 +128,7 @@
     "DPS": 14.0
   },
   "Ember": {
-    "Type": "Fire",
+    "Type": "fire",
     "PWR": 10,
     "ENG": 10,
     "Duration": 1.0,
@@ -136,7 +136,7 @@
     "DPS": 10.0
   },
   "Extrasensory": {
-    "Type": "Psychic",
+    "Type": "psychic",
     "PWR": 11,
     "ENG": 11,
     "Duration": 1.0,
@@ -144,7 +144,7 @@
     "DPS": 11.0
   },
   "Fairy Wind": {
-    "Type": "Fairy",
+    "Type": "fairy",
     "PWR": 9,
     "ENG": 13,
     "Duration": 1.0,
@@ -152,7 +152,7 @@
     "DPS": 9.0
   },
   "Feint Attack": {
-    "Type": "Normal",
+    "Type": "normal",
     "PWR": 11,
     "ENG": 10,
     "Duration": 1.0,
@@ -160,7 +160,7 @@
     "DPS": 11.0
   },
   "Fire Fang": {
-    "Type": "Fire",
+    "Type": "fire",
     "PWR": 13,
     "ENG": 9,
     "Duration": 1.0,
@@ -168,7 +168,7 @@
     "DPS": 13.0
   },
   "Fire Spin": {
-    "Type": "Fire",
+    "Type": "fire",
     "PWR": 13,
     "ENG": 9,
     "Duration": 1.0,
@@ -176,7 +176,7 @@
     "DPS": 13.0
   },
   "Force Palm": {
-    "Type": "Fighting",
+    "Type": "fighting",
     "PWR": 10,
     "ENG": 16,
     "Duration": 1.0,
@@ -184,7 +184,7 @@
     "DPS": 10.0
   },
   "Frost Breath": {
-    "Type": "Ice",
+    "Type": "ice",
     "PWR": 11,
     "ENG": 9,
     "Duration": 1.0,
@@ -192,7 +192,7 @@
     "DPS": 11.0
   },
   "Fury Cutter": {
-    "Type": "Bug",
+    "Type": "bug",
     "PWR": 4,
     "ENG": 8,
     "Duration": 0.5,
@@ -200,7 +200,7 @@
     "DPS": 8.0
   },
   "Geomancy": {
-    "Type": "Fairy",
+    "Type": "fairy",
     "PWR": 20,
     "ENG": 14,
     "Duration": 1.5,
@@ -208,7 +208,7 @@
     "DPS": 13.33
   },
   "Gust": {
-    "Type": "Air",
+    "Type": "flying",
     "PWR": 25,
     "ENG": 20,
     "Duration": 2.0,
@@ -216,7 +216,7 @@
     "DPS": 12.5
   },
   "Hex": {
-    "Type": "Ghost",
+    "Type": "ghost",
     "PWR": 8,
     "ENG": 13,
     "Duration": 1.0,
@@ -224,7 +224,7 @@
     "DPS": 8.0
   },
   "Hidden Power": {
-    "Type": "Normal",
+    "Type": "normal",
     "PWR": 15,
     "ENG": 15,
     "Duration": 1.5,
@@ -232,7 +232,7 @@
     "DPS": 10.0
   },
   "Ice Fang": {
-    "Type": "Ice",
+    "Type": "ice",
     "PWR": 12,
     "ENG": 20,
     "Duration": 1.5,
@@ -240,7 +240,7 @@
     "DPS": 8.0
   },
   "Ice Shard": {
-    "Type": "Ice",
+    "Type": "ice",
     "PWR": 10,
     "ENG": 10,
     "Duration": 1.0,
@@ -248,7 +248,7 @@
     "DPS": 10.0
   },
   "Incinerate": {
-    "Type": "Fire",
+    "Type": "fire",
     "PWR": 32,
     "ENG": 22,
     "Duration": 2.5,
@@ -256,7 +256,7 @@
     "DPS": 12.8
   },
   "Infestation": {
-    "Type": "Bug",
+    "Type": "bug",
     "PWR": 9,
     "ENG": 13,
     "Duration": 1.0,
@@ -264,7 +264,7 @@
     "DPS": 9.0
   },
   "Iron Tail": {
-    "Type": "Steel",
+    "Type": "steel",
     "PWR": 14,
     "ENG": 6,
     "Duration": 1.0,
@@ -272,7 +272,7 @@
     "DPS": 14.0
   },
   "Karate Chop": {
-    "Type": "Fighting",
+    "Type": "fighting",
     "PWR": 10,
     "ENG": 13,
     "Duration": 1.0,
@@ -280,7 +280,7 @@
     "DPS": 10.0
   },
   "Leafage": {
-    "Type": "Grass",
+    "Type": "grass",
     "PWR": 6,
     "ENG": 4,
     "Duration": 0.5,
@@ -288,7 +288,7 @@
     "DPS": 12.0
   },
   "Lick": {
-    "Type": "Ghost",
+    "Type": "ghost",
     "PWR": 5,
     "ENG": 6,
     "Duration": 0.5,
@@ -296,7 +296,7 @@
     "DPS": 10.0
   },
   "Lock-On": {
-    "Type": "Normal",
+    "Type": "normal",
     "PWR": 2,
     "ENG": 10,
     "Duration": 0.5,
@@ -304,7 +304,7 @@
     "DPS": 4.0
   },
   "Low Kick": {
-    "Type": "Fighting",
+    "Type": "fighting",
     "PWR": 5,
     "ENG": 5,
     "Duration": 0.5,
@@ -312,7 +312,7 @@
     "DPS": 10.0
   },
   "Magical Leaf": {
-    "Type": "Grass",
+    "Type": "grass",
     "PWR": 17,
     "ENG": 17,
     "Duration": 1.5,
@@ -320,7 +320,7 @@
     "DPS": 11.33
   },
   "Metal Claw": {
-    "Type": "Steel",
+    "Type": "steel",
     "PWR": 6,
     "ENG": 5,
     "Duration": 0.5,
@@ -328,7 +328,7 @@
     "DPS": 12.0
   },
   "Metal Sound": {
-    "Type": "Steel",
+    "Type": "steel",
     "PWR": 4,
     "ENG": 6,
     "Duration": 0.5,
@@ -336,7 +336,7 @@
     "DPS": 8.0
   },
   "Mud Shot": {
-    "Type": "Ground",
+    "Type": "ground",
     "PWR": 4,
     "ENG": 6,
     "Duration": 0.5,
@@ -344,7 +344,7 @@
     "DPS": 8.0
   },
   "Mud-Slap": {
-    "Type": "Ground",
+    "Type": "ground",
     "PWR": 19,
     "ENG": 13,
     "Duration": 1.5,
@@ -352,7 +352,7 @@
     "DPS": 12.67
   },
   "Peck": {
-    "Type": "Air",
+    "Type": "flying",
     "PWR": 10,
     "ENG": 10,
     "Duration": 1.0,
@@ -360,7 +360,7 @@
     "DPS": 10.0
   },
   "Poison Jab": {
-    "Type": "Poison",
+    "Type": "poison",
     "PWR": 13,
     "ENG": 9,
     "Duration": 1.0,
@@ -368,7 +368,7 @@
     "DPS": 13.0
   },
   "Poison Sting": {
-    "Type": "Poison",
+    "Type": "poison",
     "PWR": 4,
     "ENG": 6,
     "Duration": 0.5,
@@ -376,7 +376,7 @@
     "DPS": 8.0
   },
   "Pound": {
-    "Type": "Normal",
+    "Type": "normal",
     "PWR": 6,
     "ENG": 5,
     "Duration": 0.5,
@@ -384,7 +384,7 @@
     "DPS": 12.0
   },
   "Powder Snow": {
-    "Type": "Ice",
+    "Type": "ice",
     "PWR": 6,
     "ENG": 15,
     "Duration": 1.0,
@@ -392,7 +392,7 @@
     "DPS": 6.0
   },
   "Present": {
-    "Type": "Normal",
+    "Type": "normal",
     "PWR": 6,
     "ENG": 23,
     "Duration": 1.5,
@@ -400,7 +400,7 @@
     "DPS": 4.0
   },
   "Psycho Cut": {
-    "Type": "Psychic",
+    "Type": "psychic",
     "PWR": 4,
     "ENG": 7,
     "Duration": 0.5,
@@ -408,7 +408,7 @@
     "DPS": 8.0
   },
   "Psywave": {
-    "Type": "Psychic",
+    "Type": "psychic",
     "PWR": 4,
     "ENG": 7,
     "Duration": 0.5,
@@ -416,7 +416,7 @@
     "DPS": 8.0
   },
   "Quick Attack": {
-    "Type": "Normal",
+    "Type": "normal",
     "PWR": 10,
     "ENG": 13,
     "Duration": 1.0,
@@ -424,7 +424,7 @@
     "DPS": 10.0
   },
   "Razor Leaf": {
-    "Type": "Grass",
+    "Type": "grass",
     "PWR": 13,
     "ENG": 7,
     "Duration": 1.0,
@@ -432,7 +432,7 @@
     "DPS": 13.0
   },
   "Rock Smash": {
-    "Type": "Fighting",
+    "Type": "fighting",
     "PWR": 17,
     "ENG": 12,
     "Duration": 1.5,
@@ -440,7 +440,7 @@
     "DPS": 11.33
   },
   "Rock Throw": {
-    "Type": "Rock",
+    "Type": "rock",
     "PWR": 13,
     "ENG": 8,
     "Duration": 1.0,
@@ -448,7 +448,7 @@
     "DPS": 13.0
   },
   "Rollout": {
-    "Type": "Rock",
+    "Type": "rock",
     "PWR": 15,
     "ENG": 19,
     "Duration": 1.5,
@@ -456,7 +456,7 @@
     "DPS": 10.0
   },
   "Sand Attack": {
-    "Type": "Ground",
+    "Type": "ground",
     "PWR": 4,
     "ENG": 7,
     "Duration": 0.5,
@@ -464,7 +464,7 @@
     "DPS": 8.0
   },
   "Scratch": {
-    "Type": "Normal",
+    "Type": "normal",
     "PWR": 6,
     "ENG": 4,
     "Duration": 0.5,
@@ -472,7 +472,7 @@
     "DPS": 12.0
   },
   "Shadow Claw": {
-    "Type": "Ghost",
+    "Type": "ghost",
     "PWR": 6,
     "ENG": 4,
     "Duration": 0.5,
@@ -480,7 +480,7 @@
     "DPS": 12.0
   },
   "Smack Down": {
-    "Type": "Rock",
+    "Type": "rock",
     "PWR": 13,
     "ENG": 7,
     "Duration": 1.0,
@@ -488,7 +488,7 @@
     "DPS": 13.0
   },
   "Snarl": {
-    "Type": "Dark",
+    "Type": "dark",
     "PWR": 11,
     "ENG": 13,
     "Duration": 1.0,
@@ -496,7 +496,7 @@
     "DPS": 11.0
   },
   "Spark": {
-    "Type": "Electric",
+    "Type": "electric",
     "PWR": 4,
     "ENG": 6,
     "Duration": 0.5,
@@ -504,7 +504,7 @@
     "DPS": 8.0
   },
   "Splash": {
-    "Type": "Water",
+    "Type": "water",
     "PWR": 0,
     "ENG": 17,
     "Duration": 1.5,
@@ -512,7 +512,7 @@
     "DPS": 0.0
   },
   "Steel Wing": {
-    "Type": "Steel",
+    "Type": "steel",
     "PWR": 14,
     "ENG": 8,
     "Duration": 1.0,
@@ -520,7 +520,7 @@
     "DPS": 14.0
   },
   "Struggle Bug": {
-    "Type": "Bug",
+    "Type": "bug",
     "PWR": 15,
     "ENG": 15,
     "Duration": 1.5,
@@ -528,7 +528,7 @@
     "DPS": 10.0
   },
   "Sucker Punch": {
-    "Type": "Dark",
+    "Type": "dark",
     "PWR": 5,
     "ENG": 6,
     "Duration": 0.5,
@@ -536,7 +536,7 @@
     "DPS": 10.0
   },
   "Tackle": {
-    "Type": "Normal",
+    "Type": "normal",
     "PWR": 5,
     "ENG": 5,
     "Duration": 0.5,
@@ -544,7 +544,7 @@
     "DPS": 10.0
   },
   "Take Down": {
-    "Type": "Normal",
+    "Type": "normal",
     "PWR": 7,
     "ENG": 8,
     "Duration": 1.0,
@@ -552,7 +552,7 @@
     "DPS": 7.0
   },
   "Thunder Fang": {
-    "Type": "Electric",
+    "Type": "electric",
     "PWR": 10,
     "ENG": 13,
     "Duration": 1.0,
@@ -560,7 +560,7 @@
     "DPS": 10.0
   },
   "Thunder Shock": {
-    "Type": "Electric",
+    "Type": "electric",
     "PWR": 4,
     "ENG": 7,
     "Duration": 0.5,
@@ -568,7 +568,7 @@
     "DPS": 8.0
   },
   "Transform": {
-    "Type": "Normal",
+    "Type": "normal",
     "PWR": 0,
     "ENG": 0,
     "Duration": 2.0,
@@ -576,7 +576,7 @@
     "DPS": 0.0
   },
   "Vine Whip": {
-    "Type": "Grass",
+    "Type": "grass",
     "PWR": 6,
     "ENG": 5,
     "Duration": 0.5,
@@ -584,7 +584,7 @@
     "DPS": 12.0
   },
   "Volt Switch": {
-    "Type": "Electric",
+    "Type": "electric",
     "PWR": 13,
     "ENG": 20,
     "Duration": 1.5,
@@ -592,7 +592,7 @@
     "DPS": 8.67
   },
   "Water Gun": {
-    "Type": "Water",
+    "Type": "water",
     "PWR": 5,
     "ENG": 5,
     "Duration": 0.5,
@@ -600,7 +600,7 @@
     "DPS": 10.0
   },
   "Water Shuriken": {
-    "Type": "Water",
+    "Type": "water",
     "PWR": 9,
     "ENG": 14,
     "Duration": 1.0,
@@ -608,7 +608,7 @@
     "DPS": 9.0
   },
   "Waterfall": {
-    "Type": "Water",
+    "Type": "water",
     "PWR": 13,
     "ENG": 7,
     "Duration": 1.0,
@@ -616,7 +616,7 @@
     "DPS": 13.0
   },
   "Wing Attack": {
-    "Type": "Air",
+    "Type": "flying",
     "PWR": 10,
     "ENG": 11,
     "Duration": 1.0,
@@ -624,7 +624,7 @@
     "DPS": 10.0
   },
   "Yawn": {
-    "Type": "Normal",
+    "Type": "normal",
     "PWR": 0,
     "ENG": 13,
     "Duration": 1.5,
@@ -632,7 +632,7 @@
     "DPS": 0.0
   },
   "Zen Headbutt": {
-    "Type": "Psychic",
+    "Type": "psychic",
     "PWR": 11,
     "ENG": 9,
     "Duration": 1.0,

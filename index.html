@@ -3,62 +3,178 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokémon Go Stats Analyzer</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <link rel="stylesheet" href="90s-pokemon.css">
-
-</head>
+    <title>Pokémon Report</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css">
+  </head>
 <body>
-    <h1><img src='img/rotompng.png' height="100" > Rotom Report</h1>
-    <div class="upload">
-    <input type="file" id="fileInput" accept=".csv,.tsv" />
+
+    <div class="container">
+        <div class="header">
+            <h1 class="title">Rotom Report</h1>
+            <div class="image-container">
+                <img src="images/rotomdex.png" alt="Base Image" class="base-image">
+                <img id="rotomOverlay" src="images/rotomdex_closed_eyes_overlay.png" alt="Overlay Image" class="overlay-image">
+            </div>
+        </div>
+
+        <div id="upload-section">
+            <p>Please upload your Poke Genie CSV file to get started!</p>
+            <input type="file" id="file-input" accept=".csv">
+            <label for="file-input" id="upload-label">Choose File</label>
+            <div id="message-box"></div>
+        </div>
+
+        <div id="app-content" style="display: none;">
+            <div class="tabs">
+                <button class="tab-button active" onclick="showTab('summary-report')">Summary Report</button>
+                <button class="tab-button" onclick="showTab('stardust-report')">Stardust Report</button>
+<!--                <button class="tab-button" onclick="showTab('pve-report')">PvE Report</button>-->
+<!--                <button class="tab-button" onclick="showTab('pvp-report')">PvP Report</button>-->
+                <button class="tab-button" onclick="showTab('fm-tm-report')">Fast Move TM Report</button>
+                <button class="tab-button" onclick="showTab('cm-tm-report')">Charge Move TMs Report</button>
+<!--                <button class="tab-button" onclick="showTab('evolution-report')">Evolution Report</button>-->
+            </div>
+
+            <div id="summary-report" class="report-section active">
+                <h2 class="text-xl font-bold mb-4">Summary Report</h2>
+
+                <!-- Metrics Section -->
+                <div class="metrics-grid" id="summary-metrics">
+                    <div class="metric-card">
+                        <h4>Total Pokémon</h4>
+                        <p id="total-pokemon"></p>
+                    </div>
+
+                    <div class="metric-card">
+                        <h4>Shadow Pokémon</h4>
+                        <p id="shadow-count"></p>
+                    </div>
+                    <div class="metric-card">
+                        <h4>Purified Pokémon</h4>
+                        <p id="purified-count"></p>
+                    </div>
+                    <!--
+                    <div class="metric-card">
+                        <h4>Legendary Pokémon</h4>
+                        <p id="legendary-count"></p>
+                    </div>
+                    <div class="metric-card">
+                        <h4>Mythical Pokémon</h4>
+                        <p id="mythical-count"></p>
+                    </div>
+                    <div class="metric-card">
+                        <h4>Ultra Beast Pokémon</h4>
+                        <p id="ultrabeast-count"></p>
+                    </div>
+                    -->
+                    <div class="metric-card">
+                        <h4>Lucky Pokémon</h4>
+                        <p id="lucky-count"></p>
+                    </div>
+                    <div class="metric-card">
+                        <h4>Hundo (100% IV)</h4>
+                        <p id="hundo-count"></p>
+                    </div>
+                    <div class="metric-card">
+                        <h4>Nundo (0% IV)</h4>
+                        <p id="nundo-count"></p>
+                    </div>
+                </div>
+
+                <div class="metrics-grid mt-4">
+                    <div class="metric-card">
+                        <h4>Stardust to Max</h4>
+                        <p id="stardust-cost"></p>
+                    </div>
+                    <div class="metric-card">
+                        <h4>Candy to Max</h4>
+                        <p id="candy-cost"></p>
+                    </div>
+                    <div class="metric-card">
+                        <h4>Candy XL to Max</h4>
+                        <p id="candy-xl-cost"></p>
+                    </div>
+                </div>
+
+                <!-- Type Distribution Chart Section -->
+                <div class="chart-container">
+                    <h3 class="text-lg font-bold">Pokémon Types</h3>
+                    <canvas id="type-pie-chart" width="400" height="400"></canvas>
+                </div>
+                <div class="chart-container mt-8">
+                    <h3 class="text-lg font-bold">Pokémon Levels Distribution</h3>
+                    <canvas id="level-histogram" width="400" height="400"></canvas>
+                </div>
+            </div>
+
+            <div id="stardust-report" class="report-section">
+                <h2 class="text-xl font-bold mb-4">Stardust Report</h2>
+                <p>These Pokémon are great candidates for your stardust and candy investment. They are ordered by level (highest first), making them the most cost-effective to power up for raids and gyms.</p>
+                <div id="stardust-results" class="stardust-list"></div>
+            </div>
+
+<!--            <div id="pve-report" class="report-section">-->
+<!--                <h2 class="text-xl font-bold mb-4">PvE Report</h2>-->
+<!--                <p>This report will analyze the best Pokémon for PvP battles.</p>-->
+
+<!--            </div>-->
+
+<!--            <div id="pvp-report" class="report-section">-->
+<!--                <h2 class="text-xl font-bold mb-4">PvP Report</h2>-->
+<!--                <p>This report will analyze the best Pokémon for PvP battles.</p>-->
+<!--            </div>-->
+
+            <div id="fm-tm-report" class="report-section">
+                <h2 class="text-xl font-bold mb-4">Fast Move TM Report</h2>
+                <p>This report will suggest the best Pokémon to use your TMs on.</p>
+                <div id="fm-tm-results" class="fmtm-list"></div>
+            </div>
+
+            <div id="cm-tm-report" class="report-section">
+                <h2 class="text-xl font-bold mb-4">TMs Report</h2>
+                <p>This report will suggest the best Pokémon to use your TMs on.</p>
+                <div id="cm-tm-results" class="cmtm-list"></div>
+            </div>
+
+<!--            <div id="evolution-report" class="report-section">-->
+<!--                <h2 class="text-xl font-bold mb-4">Evolution Items Report</h2>-->
+<!--                <p>This report will show the best Pokémon to use your evolution items on.</p>-->
+<!--            </div>-->
+        </div>
     </div>
 
-    <div class="section">
-        <fieldset class="section results">
-            <h2> Options </h2>
-            <label for="analysis-level-forty" class="checkbox-label">
-                <input type="checkbox" id="analysis-level-forty" name="analysis-type" value="level_forty">
-                <span class="label-text">Level 40</span>
-            </label>
+    <script>
+        // Tab switching logic
+        function showTab(tabId) {
+            const sections = document.querySelectorAll('.report-section');
+            sections.forEach(section => {
+                section.classList.remove('active');
+            });
+            document.getElementById(tabId).classList.add('active');
 
-            <label for="analysis-ideal-moveset" class="checkbox-label">
-                <input type="checkbox" id="analysis-ideal-moveset" name="analysis-type" value="ideal_moveset">
-                <span class="label-text">Ideal Moveset</span>
-            </label>
-
-            <label for="analysis-evolved" class="checkbox-label">
-                <input type="checkbox" id="analysis-evolved" name="analysis-type" value="fully_evolved">
-                <span class="label-text">Fully Evolved</span>
-            </label>
-        </fieldset>
-    </div>
-
-    <div class="section results" id="summary">
-        <h2>Summary</h2>
-        <p id="fileStats">No file uploaded.</p>
-    </div>
-
-    <div class="section results" id="chartSection" style="display:none;">
-        <h2>CP Distribution</h2>
-        <canvas id="cpChart"></canvas>
-    </div>
-
-    <div class="section results" id="tableSection" style="display:none;">
-        <h2>Pokémon Table</h2>
-        <div id="pokemonTable"></div>
-    </div>
-
-    <div class="section results" id="errorSection" style="display:none;">
-        <h2>Data Issues Found</h2>
-        <div id="errorTablesContainer"></div>
-    </div>
+            const buttons = document.querySelectorAll('.tab-button');
+            buttons.forEach(button => {
+                button.classList.remove('active');
+            });
+            const activeTabButton = document.querySelector(`.tab-button[onclick="showTab('${tabId}')"]`);
+            if (activeTabButton) {
+                activeTabButton.classList.add('active');
+            }
+        }
+        // Tab switching logic for initial load
+        showTab('summary-report');
+    </script>
+    <script src="js/imageRotation.js"></script>
+    <script src="/js/common.js"></script>
+    <script src="/js/csvProcessor.js"></script>
+    <script src="/js/chartRenderer.js"></script>
+    <script src="/js/summaryTab.js"></script>
+    <script src="/js/stardustTab.js"></script>
+    <script src="/js/fmTMTab.js"></script>
+    <script src="/js/cmTMTab.js"></script>
+    <script src="/js/index.js"></script>
 
 
-    <script src="js/csvProcessor.js"></script>
-    <script src="js/tableRenderer.js"></script>
-    <script src="js/chartRenderer.js"></script>
-    <script src="js/pokeMath.js"></script>
-    <script src="js/main.js"></script>
 </body>
 </html>

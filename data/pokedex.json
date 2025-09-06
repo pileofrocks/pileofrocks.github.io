@@ -40869,7 +40869,7 @@
             "Cyndaquil",
             "Quilava",
             "Typhlosion Normal",
-            "Hisuian Typhlosion",
+            "Typhlosion Hisui",
             "Shadow Hisuian Typhlosion",
             "Shadow Cyndaquil",
             "Shadow Quilava",
@@ -40978,7 +40978,7 @@
             "Cyndaquil",
             "Quilava",
             "Typhlosion Normal",
-            "Hisuian Typhlosion",
+            "Typhlosion Hisui",
             "Shadow Hisuian Typhlosion",
             "Shadow Cyndaquil",
             "Shadow Quilava",
@@ -41071,7 +41071,7 @@
             "Cyndaquil",
             "Quilava",
             "Typhlosion Normal",
-            "Hisuian Typhlosion",
+            "Typhlosion Hisui",
             "Shadow Hisuian Typhlosion",
             "Shadow Cyndaquil",
             "Shadow Quilava",
@@ -41180,7 +41180,7 @@
             "Cyndaquil",
             "Quilava",
             "Typhlosion Normal",
-            "Hisuian Typhlosion",
+            "Typhlosion Hisui",
             "Shadow Hisuian Typhlosion",
             "Shadow Cyndaquil",
             "Shadow Quilava",
@@ -41289,16 +41289,16 @@
             "Cyndaquil",
             "Quilava",
             "Typhlosion Normal",
-            "Hisuian Typhlosion",
+            "Typhlosion Hisui",
             "Shadow Hisuian Typhlosion",
             "Shadow Cyndaquil",
             "Shadow Quilava",
             "Shadow Typhlosion"
         ]
     },
-    "Hisuian Typhlosion": {
+    "Typhlosion Hisui": {
         "number": "157",
-        "name": "Hisuian Typhlosion",
+        "name": "Typhlosion Hisui",
         "types": [
             "fire",
             "ghost"
@@ -41580,7 +41580,7 @@
             "Cyndaquil",
             "Quilava",
             "Typhlosion Normal",
-            "Hisuian Typhlosion",
+            "Typhlosion Hisui",
             "Shadow Hisuian Typhlosion",
             "Shadow Cyndaquil",
             "Shadow Quilava",
@@ -67091,14 +67091,14 @@
                 "25 Candy"
             ],
             "Lairon": [
-                "Aggron",
+                "Aggron Normal",
                 "100 Candy"
             ]
         },
         "family": [
             "Aron",
             "Lairon",
-            "Aggron",
+            "Aggron Normal",
             "Mega Aggron",
             "Shadow Aron",
             "Shadow Lairon",
@@ -67199,14 +67199,14 @@
                 "25 Candy"
             ],
             "Lairon": [
-                "Aggron",
+                "Aggron Normal",
                 "100 Candy"
             ]
         },
         "family": [
             "Aron",
             "Lairon",
-            "Aggron",
+            "Aggron Normal",
             "Mega Aggron",
             "Shadow Aron",
             "Shadow Lairon",
@@ -67307,14 +67307,14 @@
                 "25 Candy"
             ],
             "Lairon": [
-                "Aggron",
+                "Aggron Normal",
                 "100 Candy"
             ]
         },
         "family": [
             "Aron",
             "Lairon",
-            "Aggron",
+            "Aggron Normal",
             "Mega Aggron",
             "Shadow Aron",
             "Shadow Lairon",
@@ -67415,23 +67415,23 @@
                 "25 Candy"
             ],
             "Lairon": [
-                "Aggron",
+                "Aggron Normal",
                 "100 Candy"
             ]
         },
         "family": [
             "Aron",
             "Lairon",
-            "Aggron",
+            "Aggron Normal",
             "Mega Aggron",
             "Shadow Aron",
             "Shadow Lairon",
             "Shadow Aggron"
         ]
     },
-    "Aggron": {
+    "Aggron Normal": {
         "number": "306",
-        "name": "Aggron",
+        "name": "Aggron Normal",
         "types": [
             "steel",
             "rock"
@@ -67523,14 +67523,14 @@
                 "25 Candy"
             ],
             "Lairon": [
-                "Aggron",
+                "Aggron Normal",
                 "100 Candy"
             ]
         },
         "family": [
             "Aron",
             "Lairon",
-            "Aggron",
+            "Aggron Normal",
             "Mega Aggron",
             "Shadow Aron",
             "Shadow Lairon",
@@ -67722,14 +67722,14 @@
                 "25 Candy"
             ],
             "Lairon": [
-                "Aggron",
+                "Aggron Normal",
                 "100 Candy"
             ]
         },
         "family": [
             "Aron",
             "Lairon",
-            "Aggron",
+            "Aggron Normal",
             "Mega Aggron",
             "Shadow Aron",
             "Shadow Lairon",
@@ -76307,9 +76307,9 @@
             "Chingling"
         ]
     },
-    "Absol": {
+    "Absol Normal": {
         "number": "359",
-        "name": "Absol",
+        "name": "Absol Normal",
         "types": [
             "dark",
             "dark"
@@ -76396,13 +76396,13 @@
             "Charged Moves": {}
         },
         "evolutions": {
-            "Absol": [
+            "Absol Normal": [
                 "Mega Absol",
                 "200 / 40 Mega Energy"
             ]
         },
         "family": [
-            "Absol",
+            "Absol Normal",
             "Mega Absol",
             "Shadow Absol"
         ]
@@ -76496,13 +76496,13 @@
             "Charged Moves": {}
         },
         "evolutions": {
-            "Absol": [
+            "Absol Normal": [
                 "Mega Absol",
                 "200 / 40 Mega Energy"
             ]
         },
         "family": [
-            "Absol",
+            "Absol Normal",
             "Mega Absol",
             "Shadow Absol"
         ]
@@ -76596,13 +76596,13 @@
             "Charged Moves": {}
         },
         "evolutions": {
-            "Absol": [
+            "Absol Normal": [
                 "Mega Absol",
                 "200 / 40 Mega Energy"
             ]
         },
         "family": [
-            "Absol",
+            "Absol Normal",
             "Mega Absol",
             "Shadow Absol"
         ]
@@ -80120,9 +80120,9 @@
         "evolutions": {},
         "family": []
     },
-    "Latias": {
+    "Latias Normal": {
         "number": "380",
-        "name": "Latias",
+        "name": "Latias Normal",
         "types": [
             "dragon",
             "psychic"
@@ -80209,13 +80209,13 @@
             "Charged Moves": {}
         },
         "evolutions": {
-            "Latias": [
+            "Latias Normal": [
                 "Mega Latias",
                 "300 / 60 Mega Energy"
             ]
         },
         "family": [
-            "Latias",
+            "Latias Normal",
             "Mega Latias",
             "Shadow Latias"
         ]
@@ -80309,13 +80309,13 @@
             "Charged Moves": {}
         },
         "evolutions": {
-            "Latias": [
+            "Latias Normal": [
                 "Mega Latias",
                 "300 / 60 Mega Energy"
             ]
         },
         "family": [
-            "Latias",
+            "Latias Normal",
             "Mega Latias",
             "Shadow Latias"
         ]
@@ -80409,20 +80409,20 @@
             "Charged Moves": {}
         },
         "evolutions": {
-            "Latias": [
+            "Latias Normal": [
                 "Mega Latias",
                 "300 / 60 Mega Energy"
             ]
         },
         "family": [
-            "Latias",
+            "Latias Normal",
             "Mega Latias",
             "Shadow Latias"
         ]
     },
-    "Latios": {
+    "Latios Normal": {
         "number": "381",
-        "name": "Latios",
+        "name": "Latios Normal",
         "types": [
             "dragon",
             "psychic"
@@ -80509,13 +80509,13 @@
             "Charged Moves": {}
         },
         "evolutions": {
-            "Latios": [
+            "Latios Normal": [
                 "Mega Latios",
                 "300 / 60 Mega Energy"
             ]
         },
         "family": [
-            "Latios",
+            "Latios Normal",
             "Mega Latios",
             "Shadow Latios"
         ]
@@ -80609,13 +80609,13 @@
             "Charged Moves": {}
         },
         "evolutions": {
-            "Latios": [
+            "Latios Normal": [
                 "Mega Latios",
                 "300 / 60 Mega Energy"
             ]
         },
         "family": [
-            "Latios",
+            "Latios Normal",
             "Mega Latios",
             "Shadow Latios"
         ]
@@ -80709,20 +80709,20 @@
             "Charged Moves": {}
         },
         "evolutions": {
-            "Latios": [
+            "Latios Normal": [
                 "Mega Latios",
                 "300 / 60 Mega Energy"
             ]
         },
         "family": [
-            "Latios",
+            "Latios Normal",
             "Mega Latios",
             "Shadow Latios"
         ]
     },
-    "Kyogre": {
+    "Kyogre Normal": {
         "number": "382",
-        "name": "Kyogre",
+        "name": "Kyogre Normal",
         "types": [
             "water",
             "water"
@@ -80785,13 +80785,13 @@
             "Charged Moves": {}
         },
         "evolutions": {
-            "Kyogre": [
+            "Kyogre Normal": [
                 "Primal Kyogre",
                 "400 / 80 Primal Energy"
             ]
         },
         "family": [
-            "Kyogre",
+            "Kyogre Normal",
             "Primal Kyogre",
             "Shadow Kyogre"
         ]
@@ -80861,13 +80861,13 @@
             "Charged Moves": {}
         },
         "evolutions": {
-            "Kyogre": [
+            "Kyogre Normal": [
                 "Primal Kyogre",
                 "400 / 80 Primal Energy"
             ]
         },
         "family": [
-            "Kyogre",
+            "Kyogre Normal",
             "Primal Kyogre",
             "Shadow Kyogre"
         ]
@@ -80945,13 +80945,13 @@
             "Charged Moves": {}
         },
         "evolutions": {
-            "Kyogre": [
+            "Kyogre Normal": [
                 "Primal Kyogre",
                 "400 / 80 Primal Energy"
             ]
         },
         "family": [
-            "Kyogre",
+            "Kyogre Normal",
             "Primal Kyogre",
             "Shadow Kyogre"
         ]
@@ -87462,7 +87462,7 @@
         },
         "evolutions": {
             "Shellos": [
-                "Gastrodon (East Sea)",
+                "Gastrodon",
                 "50 Candy"
             ]
         },
@@ -113764,9 +113764,9 @@
             "Shadow Garbodor"
         ]
     },
-    "Zorua": {
+    "Zorua Normal": {
         "number": "570",
-        "name": "Zorua",
+        "name": "Zorua Normal",
         "types": [
             "dark",
             "dark"
@@ -113853,13 +113853,13 @@
             "Charged Moves": {}
         },
         "evolutions": {
-            "Zorua": [
+            "Zorua Normal": [
                 "Zoroark",
                 "50 Candy"
             ]
         },
         "family": [
-            "Zorua",
+            "Zorua Normal",
             "Zoroark",
             "Zorua Hisui",
             "Zoroark Hisui"
@@ -113960,7 +113960,7 @@
             ]
         },
         "family": [
-            "Zorua",
+            "Zorua Normal",
             "Zoroark",
             "Zorua Hisui",
             "Zoroark Hisui"
@@ -114055,13 +114055,13 @@
             "Charged Moves": {}
         },
         "evolutions": {
-            "Zorua": [
+            "Zorua Normal": [
                 "Zoroark",
                 "50 Candy"
             ]
         },
         "family": [
-            "Zorua",
+            "Zorua Normal",
             "Zoroark",
             "Zorua Hisui",
             "Zoroark Hisui"
@@ -114162,7 +114162,7 @@
             ]
         },
         "family": [
-            "Zorua",
+            "Zorua Normal",
             "Zoroark",
             "Zorua Hisui",
             "Zoroark Hisui"
@@ -127559,15 +127559,11 @@
         },
         "evolutions": {
             "Flab\u00e9b\u00e9": [
-                "Floette (Red Flower)",
-                "25 Candy"
-            ],
-            "Flab\u00e9b\u00e9 (Red Flower)": [
-                "Floette (Red Flower)",
+                "Floette",
                 "25 Candy"
             ],
             "Floette (Red Flower)": [
-                "Florges (Red Flower)",
+                "Florges",
                 "Earn 20 hearts with your buddy"
             ]
         },
@@ -127577,13 +127573,13 @@
             "Florges",
             "Flab\u00e9b\u00e9 (Blue Flower)",
             "Floette (Blue Flower)",
-            "Florges (Blue Flower)",
+            "Florges",
             "Flab\u00e9b\u00e9 (Orange Flower)",
             "Floette (Orange Flower)",
-            "Florges (Orange Flower)",
+            "Florges",
             "Flab\u00e9b\u00e9 (Red Flower)",
             "Floette (Red Flower)",
-            "Florges (Red Flower)",
+            "Florges",
             "Flab\u00e9b\u00e9 (White Flower)",
             "Floette (White Flower)",
             "Florges (White Flower)",
@@ -127666,7 +127662,7 @@
         },
         "evolutions": {
             "Floette": [
-                "Florges (Red Flower)",
+                "Florges",
                 "Earn 20 hearts with your buddy"
             ]
         },
@@ -127676,13 +127672,13 @@
             "Florges",
             "Flab\u00e9b\u00e9 (Blue Flower)",
             "Floette (Blue Flower)",
-            "Florges (Blue Flower)",
+            "Florges",
             "Flab\u00e9b\u00e9 (Orange Flower)",
             "Floette (Orange Flower)",
-            "Florges (Orange Flower)",
+            "Florges",
             "Flab\u00e9b\u00e9 (Red Flower)",
             "Floette (Red Flower)",
-            "Florges (Red Flower)",
+            "Florges",
             "Flab\u00e9b\u00e9 (White Flower)",
             "Floette (White Flower)",
             "Florges (White Flower)",
@@ -148822,7 +148818,7 @@
             "Toxtricity",
             "Toxtricity (Amped Form)",
             "Gigantamax Toxtricity",
-            "Toxtricity (Low Key Form)"
+            "Toxtricity"
         ]
     },
     "Toxtricity (Amped Form)": {
@@ -148924,7 +148920,7 @@
             "Toxtricity",
             "Toxtricity (Amped Form)",
             "Gigantamax Toxtricity",
-            "Toxtricity (Low Key Form)"
+            "Toxtricity"
         ]
     },
     "Gigantamax Toxtricity": {
@@ -149018,9 +149014,9 @@
         "evolutions": {},
         "family": []
     },
-    "Toxtricity (Low Key Form)": {
+    "Toxtricity": {
         "number": "849",
-        "name": "Toxtricity (Low Key Form)",
+        "name": "Toxtricity",
         "types": [
             "electric",
             "poison"
@@ -149108,7 +149104,7 @@
         },
         "evolutions": {
             "Toxel": [
-                "Toxtricity (Low Key Form)",
+                "Toxtricity",
                 "400 Candy"
             ]
         },
@@ -149117,7 +149113,7 @@
             "Toxtricity",
             "Toxtricity (Amped Form)",
             "Gigantamax Toxtricity",
-            "Toxtricity (Low Key Form)"
+            "Toxtricity"
         ]
     },
     "Sizzlipede": {
